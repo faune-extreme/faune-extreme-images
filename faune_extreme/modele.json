@@ -1,0 +1,42 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui défient les lois de la nature",
+      "sous_titre": "Le n°1 a survécu dans l'espace →"
+    },
+    {
+      "type": "fait",
+      "emoji": "🔬",
+      "titre": "Le tardigrade a survécu à l'espace",
+      "texte": "Moins d'un millimètre, et pourtant : en 2007, des tardigrades ont passé 10 jours exposés au vide spatial. Certains sont revenus vivants."
+    },
+    {
+      "type": "fait",
+      "emoji": "🦐",
+      "titre": "La squille frappe comme un marteau",
+      "texte": "Cette crevette-mante donne des coups à plus de 80 km/h. Assez pour briser des coquillages… et parfois la vitre d'un aquarium."
+    },
+    {
+      "type": "fait",
+      "emoji": "🦅",
+      "titre": "Le faucon pèlerin dépasse les 300 km/h",
+      "texte": "En piqué, c'est l'animal le plus rapide du monde. Plus vite qu'une voiture de course en ligne droite."
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

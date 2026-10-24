@@ -1,0 +1,9 @@
+{
+  "note": "Animaux déjà publiés sur @faune.extreme : ne jamais les réutiliser. La réserve contient des faits déjà vérifiés à utiliser en priorité.",
+  "publies": [
+    {"date": "2026-10-24", "animaux": ["tardigrade", "squille (crevette-mante)", "faucon pèlerin"]}
+  ],
+  "reserve": [
+    {"emoji": "🦈", "titre": "Ce requin pourrait vivre 400 ans", "texte": "Le requin du Groenland grandit d'environ 1 cm par an. Certains individus vivants aujourd'hui seraient nés avant Louis XIV."}
+  ]
+}
