@@ -1,0 +1,42 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux super-pouvoirs bien réels",
+      "sous_titre": "Le n°1 tire des bulles aussi chaudes que le Soleil →"
+    },
+    {
+      "type": "fait",
+      "emoji": "🦐",
+      "titre": "La crevette-pistolet tire des bulles brûlantes",
+      "texte": "En refermant sa pince, elle crée une bulle qui implose. À l'intérieur, la température atteindrait près de 4 700 °C, proche de la surface du Soleil. Le choc assomme ses proies."
+    },
+    {
+      "type": "fait",
+      "emoji": "🎯",
+      "titre": "La libellule ne rate presque jamais",
+      "texte": "Elle anticipe la trajectoire de sa proie et l'intercepte en plein vol. Elle réussirait plus de 9 chasses sur 10 : l'un des meilleurs taux de tout le règne animal."
+    },
+    {
+      "type": "fait",
+      "emoji": "🦎",
+      "titre": "L'axolotl fait repousser ses organes",
+      "texte": "Patte coupée ? Elle repousse, sans cicatrice. Cet amphibien mexicain peut aussi régénérer sa moelle épinière, une partie de son cœur et même des morceaux de son cerveau."
+    },
+    {
+      "type": "cta",
+      "titre": "Quel super-pouvoir voudrais-tu ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
