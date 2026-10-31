@@ -1,0 +1,42 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux dignes d'Halloween",
+      "sous_titre": "Le n°1 régurgite du sang pour ses amis →"
+    },
+    {
+      "type": "fait",
+      "emoji": "🦇",
+      "titre": "La chauve-souris vampire partage son sang",
+      "texte": "Après deux ou trois nuits sans repas, elle risquerait de mourir. Alors ses compagnes de colonie régurgitent du sang pour la nourrir… et la faveur est souvent rendue."
+    },
+    {
+      "type": "fait",
+      "emoji": "🧟",
+      "titre": "La guêpe émeraude fabrique des zombies",
+      "texte": "Elle pique une blatte directement dans le cerveau. Privée de volonté, sa victime se laisse guider par une antenne jusqu'au terrier, où la guêpe pond un œuf sur elle."
+    },
+    {
+      "type": "fait",
+      "emoji": "🦑",
+      "titre": "Le calmar vampire mange des déchets",
+      "texte": "Malgré son nom, ce céphalopode des abysses ne chasse pas : il attrape la « neige marine », des débris qui tombent de la surface, et l'enrobe de mucus."
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel te donne le plus de frissons ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
