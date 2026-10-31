@@ -1,0 +1,60 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui se jouent de la mort",
+      "sous_titre": "Le n°1 peut redevenir bébé →",
+      "photos": [
+        {
+          "emoji": "🪼"
+        },
+        {
+          "photo": "faune_extreme/photos/grenouille_bois.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/martinet.jpg",
+          "cadrage": "center"
+        }
+      ],
+      "credit": "Photos iNaturalist : Bernadette Kavanaugh (CC BY), Михаил Голомысов (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🪼",
+      "titre": "La méduse immortelle rajeunit",
+      "texte": "Blessée ou affamée, Turritopsis dohrnii peut retransformer son corps adulte en polype, son stade juvénile, puis repartir pour un nouveau cycle de vie. En théorie, sans fin."
+    },
+    {
+      "type": "fait",
+      "emoji": "🐸",
+      "titre": "La grenouille des bois gèle sur place",
+      "texte": "En hiver, jusqu'à deux tiers de l'eau de son corps se change en glace. Son cœur s'arrête, elle ne respire plus… et au dégel, elle repart comme si de rien n'était.",
+      "photo": "faune_extreme/photos/grenouille_bois.jpg",
+      "credit": "Photo : Bernadette Kavanaugh / iNaturalist (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐦",
+      "titre": "Le martinet vole 10 mois sans se poser",
+      "texte": "Des chercheurs suédois l'ont équipé de capteurs : certains martinets noirs restent en l'air dix mois d'affilée. Ils y mangent et y dormiraient même, en plein vol.",
+      "photo": "faune_extreme/photos/martinet.jpg",
+      "credit": "Photo : Михаил Голомысов / iNaturalist (CC BY)"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

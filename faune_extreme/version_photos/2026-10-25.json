@@ -1,0 +1,64 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux records impossibles",
+      "sous_titre": "Le n°1 serait né avant Louis XIV →",
+      "photos": [
+        {
+          "photo": "faune_extreme/photos/requin_groenland.jpg",
+          "cadrage": "center 70%"
+        },
+        {
+          "photo": "faune_extreme/photos/barge.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/bombardier.jpg",
+          "cadrage": "center"
+        }
+      ],
+      "credit": "Photos iNaturalist : Julien Savoie (CC BY), Настя Бухвалова (CC BY), Robert Webster (CC BY-SA)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🦈",
+      "titre": "Ce requin pourrait vivre 400 ans",
+      "texte": "Le requin du Groenland grandit d'environ 1 cm par an. Certains individus vivants aujourd'hui seraient nés avant Louis XIV : c'est le vertébré le plus vieux connu.",
+      "photo": "faune_extreme/photos/requin_groenland.jpg",
+      "credit": "Photo : Julien Savoie / iNaturalist (CC BY)",
+      "cadrage": "center 70%"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐦",
+      "titre": "La barge rousse vole 11 jours sans escale",
+      "texte": "En 2022, une jeune barge rousse a relié l'Alaska à la Tasmanie : 13 560 km d'une traite, sans se poser, sans manger ni boire. Un record mondial.",
+      "photo": "faune_extreme/photos/barge.jpg",
+      "credit": "Photo : Настя Бухвалова / iNaturalist (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🪲",
+      "titre": "Le bombardier tire un jet bouillant",
+      "texte": "Attaqué, ce petit coléoptère mélange deux produits chimiques dans son abdomen et projette un jet proche de 100 °C, en environ 500 mini-explosions par seconde.",
+      "photo": "faune_extreme/photos/bombardier.jpg",
+      "credit": "Photo : Robert Webster / iNaturalist (CC BY-SA)"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

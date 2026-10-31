@@ -1,0 +1,64 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux super-sens",
+      "sous_titre": "Le n°1 entend mieux qu'une chauve-souris →",
+      "photos": [
+        {
+          "photo": "faune_extreme/photos/fausse_teigne.jpg",
+          "cadrage": "center 0%"
+        },
+        {
+          "photo": "faune_extreme/photos/elephant.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/ornithorynque.jpg",
+          "cadrage": "center"
+        }
+      ],
+      "credit": "Photos iNaturalist : Tony Steer (CC BY-SA), Christiaan Viljoen (CC BY), garywwilson (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🦋",
+      "titre": "La fausse-teigne entend jusqu'à 300 kHz",
+      "texte": "Ce petit papillon de nuit perçoit des sons 15 fois plus aigus que la limite de l'oreille humaine. Un record dans le règne animal, au-delà même des chauves-souris.",
+      "photo": "faune_extreme/photos/fausse_teigne.jpg",
+      "credit": "Photo : Tony Steer / iNaturalist (CC BY-SA)",
+      "cadrage": "center 0%"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐘",
+      "titre": "L'éléphant, champion de l'odorat",
+      "texte": "Son génome compte environ 2 000 gènes de récepteurs olfactifs : deux fois plus que le chien, cinq fois plus que l'humain. Le record parmi les espèces étudiées.",
+      "photo": "faune_extreme/photos/elephant.jpg",
+      "credit": "Photo : Christiaan Viljoen / iNaturalist (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "⚡",
+      "titre": "L'ornithorynque chasse les yeux fermés",
+      "texte": "Sous l'eau, il ferme yeux, oreilles et narines. Son bec, couvert de dizaines de milliers de récepteurs, capterait les infimes champs électriques émis par ses proies.",
+      "photo": "faune_extreme/photos/ornithorynque.jpg",
+      "credit": "Photo : garywwilson / iNaturalist (CC BY)"
+    },
+    {
+      "type": "cta",
+      "titre": "Quel super-sens voudrais-tu avoir ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

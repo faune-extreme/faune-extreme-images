@@ -1,0 +1,244 @@
+{
+ "tardigrade": {
+  "taxon": "Ramazzottius oberhaeuseri",
+  "observation": "https://www.inaturalist.org/observations/339790375",
+  "attribution": "(c) Jane V Thomas, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Jane V Thomas / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1066
+  ]
+ },
+ "squille": {
+  "taxon": "Odontodactylus scyllarus",
+  "observation": "https://www.inaturalist.org/observations/27558593",
+  "attribution": "(c) Dan Schofield, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Dan Schofield / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1200
+  ]
+ },
+ "faucon": {
+  "taxon": "Falco peregrinus",
+  "observation": "https://www.inaturalist.org/observations/12075369",
+  "attribution": "(c) Shirley Zundell, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Shirley Zundell / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1431
+  ]
+ },
+ "requin_groenland": {
+  "taxon": "Somniosus microcephalus",
+  "observation": "https://www.inaturalist.org/observations/248284702",
+  "attribution": "(c) Julien Savoie, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Julien Savoie / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1290
+  ]
+ },
+ "barge": {
+  "taxon": "Limosa lapponica",
+  "observation": "https://www.inaturalist.org/observations/229857133",
+  "attribution": "(c) Настя Бухвалова, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Настя Бухвалова / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1068
+  ]
+ },
+ "bombardier": {
+  "taxon": "Brachinus tenuicollis",
+  "observation": "https://www.inaturalist.org/observations/207780009",
+  "attribution": "(c) Robert Webster, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Robert Webster / iNaturalist (CC BY-SA)",
+  "taille": [
+   1600,
+   1365
+  ]
+ },
+ "grenouille_bois": {
+  "taxon": "Lithobates sylvaticus",
+  "observation": "https://www.inaturalist.org/observations/204450491",
+  "attribution": "(c) Bernadette Kavanaugh, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Bernadette Kavanaugh / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1066
+  ]
+ },
+ "martinet": {
+  "taxon": "Apus apus",
+  "observation": "https://www.inaturalist.org/observations/167253218",
+  "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Михаил Голомысов / iNaturalist (CC BY)",
+  "taille": [
+   1350,
+   900
+  ]
+ },
+ "fausse_teigne": {
+  "taxon": "Galleria mellonella",
+  "observation": "https://www.inaturalist.org/observations/144558544",
+  "attribution": "(c) Tony Steer, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Tony Steer / iNaturalist (CC BY-SA)",
+  "taille": [
+   1388,
+   1509
+  ]
+ },
+ "elephant": {
+  "taxon": "Loxodonta africana",
+  "observation": "https://www.inaturalist.org/observations/61578092",
+  "attribution": "(c) Christiaan Viljoen, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Christiaan Viljoen / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1200
+  ]
+ },
+ "ornithorynque": {
+  "taxon": "Ornithorhynchus anatinus",
+  "observation": "https://www.inaturalist.org/observations/67233845",
+  "attribution": "(c) garywwilson, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : garywwilson / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1067
+  ]
+ },
+ "crevette_pistolet": {
+  "taxon": "Alpheus socialis",
+  "observation": "https://www.inaturalist.org/observations/51960513",
+  "attribution": "(c) Kelvin Perrie, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Kelvin Perrie / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1200
+  ]
+ },
+ "libellule": {
+  "taxon": "Anax junius",
+  "observation": "https://www.inaturalist.org/observations/93447277",
+  "attribution": "(c) Michelle W. （鍾偉瑋）, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Michelle W. （鍾偉瑋） / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1200
+  ]
+ },
+ "axolotl": {
+  "taxon": "Ambystoma mexicanum",
+  "observation": "https://www.inaturalist.org/observations/312576729",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : iNaturalist (domaine public, CC0)",
+  "taille": [
+   1200,
+   1600
+  ]
+ },
+ "poulpe": {
+  "taxon": "Octopus vulgaris",
+  "observation": "https://www.inaturalist.org/observations/184933472",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : iNaturalist (domaine public, CC0)",
+  "taille": [
+   1600,
+   1061
+  ]
+ },
+ "sterne": {
+  "taxon": "Sterna paradisaea",
+  "observation": "https://www.inaturalist.org/observations/195679642",
+  "attribution": "(c) Blake Ross, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Blake Ross / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1468
+  ]
+ },
+ "rat_taupe": {
+  "taxon": "Heterocephalus glaber",
+  "observation": "https://www.inaturalist.org/observations/296656839",
+  "attribution": "(c) Matthew Inabinett, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Matthew Inabinett / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1063
+  ]
+ },
+ "cachalot": {
+  "taxon": "Physeter macrocephalus",
+  "observation": "https://www.inaturalist.org/observations/300883241",
+  "attribution": "(c) Daniel Benák, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Daniel Benák / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1066
+  ]
+ },
+ "fourmi_argentee": {
+  "taxon": "Cataglyphis bombycina",
+  "observation": "https://www.inaturalist.org/observations/75561970",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : iNaturalist (domaine public, CC0)",
+  "taille": [
+   1600,
+   1066
+  ]
+ },
+ "albatros": {
+  "taxon": "Diomedea exulans",
+  "observation": "https://www.inaturalist.org/observations/281029033",
+  "attribution": "(c) eloise kerroux, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : eloise kerroux / iNaturalist (CC BY)",
+  "taille": [
+   1209,
+   1600
+  ]
+ },
+ "vampire": {
+  "taxon": "Desmodus rotundus",
+  "observation": "https://www.inaturalist.org/observations/69835308",
+  "attribution": "(c) Tomás Carranza Perales, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Tomás Carranza Perales / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1066
+  ]
+ },
+ "guepe": {
+  "taxon": "Ampulex compressa",
+  "observation": "https://www.inaturalist.org/observations/197177395",
+  "attribution": "(c) Carlos Alexandre Mattos Raposo, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Carlos Alexandre Mattos Raposo / iNaturalist (CC BY)",
+  "taille": [
+   1600,
+   1066
+  ]
+ }
+}

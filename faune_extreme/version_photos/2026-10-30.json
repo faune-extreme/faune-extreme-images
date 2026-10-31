@@ -1,0 +1,64 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui pulvérisent les records",
+      "sous_titre": "Le n°1 a la voix la plus puissante du monde →",
+      "photos": [
+        {
+          "photo": "faune_extreme/photos/cachalot.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/fourmi_argentee.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/albatros.jpg",
+          "cadrage": "center 35%"
+        }
+      ],
+      "credit": "Photos iNaturalist : Daniel Benák (CC BY), domaine public, eloise kerroux (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐋",
+      "titre": "Le cachalot, voix la plus puissante",
+      "texte": "Pour chasser dans les abysses, il émet des clics qui atteindraient 230 décibels sous l'eau : le son le plus puissant connu chez un animal. Un véritable sonar vivant.",
+      "photo": "faune_extreme/photos/cachalot.jpg",
+      "credit": "Photo : Daniel Benák / iNaturalist (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐜",
+      "titre": "La fourmi argentée, sprinteuse du Sahara",
+      "texte": "Sur le sable brûlant, elle court à près de 86 cm par seconde, soit environ 108 fois la longueur de son corps. À notre échelle, ce serait plus de 700 km/h.",
+      "photo": "faune_extreme/photos/fourmi_argentee.jpg",
+      "credit": "Photo : iNaturalist (domaine public, CC0)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🪶",
+      "titre": "L'albatros hurleur, géant des airs",
+      "texte": "Ses ailes déployées atteignent jusqu'à 3,5 mètres : la plus grande envergure de tous les oiseaux vivants. Il peut planer des heures au-dessus de l'océan presque sans battre des ailes.",
+      "photo": "faune_extreme/photos/albatros.jpg",
+      "credit": "Photo : eloise kerroux / iNaturalist (CC BY)",
+      "cadrage": "center 35%"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel mérite la médaille d'or ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
