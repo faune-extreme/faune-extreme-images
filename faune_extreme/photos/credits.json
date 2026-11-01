@@ -240,5 +240,19 @@
    1600,
    1066
   ]
+ },
+ "meduse": {
+  "taxon": "Turritopsis rubra (proche cousine de T. dohrnii)",
+  "observation": "https://www.inaturalist.org/observations/135866080",
+  "attribution": "(c) Luca Davenport-Thomas, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Luca Davenport-Thomas / iNaturalist (CC BY) – Turritopsis rubra"
+ },
+ "calmar_vampire": {
+  "taxon": "Vampyroteuthis infernalis",
+  "source": "iNaturalist (photo par défaut du taxon), Internet Archive Book Images",
+  "attribution": "Internet Archive Book Images, no known copyright restrictions (public domain)",
+  "licence": "Domaine public",
+  "credit": "Photo : Internet Archive Book Images (domaine public)"
  }
 }

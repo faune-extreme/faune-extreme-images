@@ -8,7 +8,8 @@
       "sous_titre": "Le n°1 peut redevenir bébé →",
       "photos": [
         {
-          "emoji": "🪼"
+          "photo": "faune_extreme/photos/meduse.jpg",
+          "cadrage": "center"
         },
         {
           "photo": "faune_extreme/photos/grenouille_bois.jpg",
@@ -25,7 +26,9 @@
       "type": "fait",
       "emoji": "🪼",
       "titre": "La méduse immortelle rajeunit",
-      "texte": "Blessée ou affamée, Turritopsis dohrnii peut retransformer son corps adulte en polype, son stade juvénile, puis repartir pour un nouveau cycle de vie. En théorie, sans fin."
+      "texte": "Blessée ou affamée, Turritopsis dohrnii peut retransformer son corps adulte en polype, son stade juvénile, puis repartir pour un nouveau cycle de vie. En théorie, sans fin.",
+      "photo": "faune_extreme/photos/meduse.jpg",
+      "credit": "Photo : Luca Davenport-Thomas / iNaturalist (CC BY) – Turritopsis rubra"
     },
     {
       "type": "fait",

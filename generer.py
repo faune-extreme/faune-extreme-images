@@ -52,30 +52,15 @@ p {{ font-size:44px; line-height:1.4; color:{TEXTE}; opacity:.88; font-weight:40
 .points {{ display:flex; gap:12px; }}
 .points span {{ width:14px; height:14px; border-radius:50%; background:{TEXTE_DOUX}; opacity:.35; }}
 .points span.actif {{ background:{ACCENT}; opacity:1; width:40px; border-radius:7px; }}
-.photo {{ position:absolute; left:0; top:0; width:100%; height:660px; background-size:cover; background-repeat:no-repeat; }}
-.photo::after {{ content:""; position:absolute; inset:0;
-   background:linear-gradient(to bottom, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 55%, {FOND} 100%); }}
-.couv .photo {{ height:100%; }}
-.couv .photo::after {{ background:linear-gradient(to bottom, rgba(0,0,0,.45) 0%, rgba(0,0,0,.05) 25%, rgba(0,0,0,.15) 45%, {FOND}F2 72%, {FOND} 100%); }}
-.credit {{ position:absolute; right:40px; top:612px; font-size:19px; color:#fff; opacity:.75; text-shadow:0 1px 3px #000; max-width:900px; text-align:right; z-index:2; }}
-.couv .credit {{ top:auto; bottom:190px; }}
-.haut, .centre, .bas {{ position:relative; z-index:1; }}
-.avec-photo .haut span:last-child {{ color:#fff; text-shadow:0 1px 6px rgba(0,0,0,.8); }}
-.avec-photo .centre {{ justify-content:flex-start; padding-top:520px; }}
-.avec-photo h2 {{ font-size:66px; margin-bottom:30px; }}
-.avec-photo p {{ font-size:40px; line-height:1.38; }}
-.mosaique {{ position:absolute; left:0; top:0; width:100%; height:780px; display:grid; gap:6px; background:{FOND}; }}
-.mosaique.n3 {{ grid-template-columns:58fr 42fr; grid-template-rows:1fr 1fr; }}
-.mosaique.n3 div:first-child {{ grid-row:1 / 3; }}
-.mosaique.n2 {{ grid-template-columns:1fr 1fr; }}
-.mosaique div {{ background-size:cover; background-repeat:no-repeat; }}
-.mosaique .case-emoji {{ display:flex; align-items:center; justify-content:center; font-size:230px; background:#16392B; }}
-.mosaique::after {{ content:""; position:absolute; inset:0;
-   background:linear-gradient(to bottom, rgba(0,0,0,.4) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 55%, {FOND} 100%); }}
-.couv-mosaique .centre {{ justify-content:flex-end; padding-bottom:30px; }}
-.couv-mosaique .credit {{ top:auto; bottom:170px; left:96px; right:96px; text-align:left; font-size:18px; }}
-.couv .centre {{ justify-content:flex-end; padding-bottom:40px; }}
-.couv h1 {{ text-shadow:0 2px 18px rgba(0,0,0,.35); }}
+.photo {{ width:100%; height:470px; border-radius:28px; background-size:cover; background-repeat:no-repeat; flex-shrink:0; }}
+.credit {{ font-size:18px; color:{TEXTE_DOUX}; margin:12px 0 36px; text-align:right; }}
+.avec-photo .centre {{ justify-content:center; }}
+.avec-photo h2 {{ font-size:64px; margin-bottom:26px; }}
+.avec-photo p {{ font-size:38px; line-height:1.38; }}
+.pastilles {{ display:flex; gap:28px; margin-bottom:60px; }}
+.pastilles div {{ width:210px; height:210px; border-radius:50%; background-size:cover; background-position:center;
+   border:6px solid {ACCENT}; box-shadow:0 8px 30px rgba(0,0,0,.35); }}
+.credit-couv {{ font-size:17px; color:{TEXTE_DOUX}; margin-top:40px; opacity:.8; }}
 .action {{ margin-top:70px; display:inline-block; align-self:flex-start; background:{ACCENT}; color:{FOND};
            font-size:42px; font-weight:800; padding:30px 48px; border-radius:24px; }}
 """
@@ -95,14 +80,27 @@ def mettre_en_valeur(titre):
     return " ".join(mots[:-n]) + " <em>" + " ".join(mots[-n:]) + "</em>"
 
 
-def corps_slide(s):
+def photo_html(chemin, cadrage="center", classe="photo"):
+    return f'<div class="{classe}" style="background-image:url({data_uri(chemin)});background-position:{esc(cadrage)}"></div>'
+
+
+def corps_slide(s, data=None):
     t = s["type"]
     if t == "cover":
-        return f"""<div class="barre"></div>
+        faits = [f for f in (data or {}).get("slides", []) if f["type"] == "fait" and f.get("photo")]
+        pastilles = ""
+        if faits:
+            pastilles = '<div class="pastilles">' + "".join(
+                photo_html(f["photo"], f.get("cadrage", "center"), "") for f in faits) + "</div>"
+        credits = " · ".join(f["credit"].replace("Photo : ", "") for f in faits if f.get("credit"))
+        credit = f'<div class="credit-couv">Photos : {esc(credits)}</div>' if credits else ""
+        return f"""{pastilles}<div class="barre"></div>
             <h1>{mettre_en_valeur(s['titre'])}</h1>
-            <div class="sous">{esc(s.get('sous_titre'))}</div>"""
+            <div class="sous">{esc(s.get('sous_titre'))}</div>{credit}"""
     if t == "fait" and s.get("photo"):
-        return f"""<h2>{mettre_en_valeur(s['titre'])}</h2>
+        credit = f'<div class="credit">{esc(s.get("credit"))}</div>' if s.get("credit") else '<div style="height:36px"></div>'
+        return f"""{photo_html(s["photo"], s.get("cadrage", "center"))}{credit}
+            <h2>{mettre_en_valeur(s['titre'])}</h2>
             <p>{esc(s['texte'])}</p>"""
     if t == "fait":
         return f"""<div class="emoji">{esc(s.get('emoji'))}</div>
@@ -137,31 +135,8 @@ def data_uri(chemin):
     return f"data:{mimetypes.guess_type(p.name)[0] or 'image/jpeg'};base64," + base64.b64encode(p.read_bytes()).decode()
 
 
-def bloc_photo(s):
-    """Couverture : "photos" = liste de {photo, cadrage} (mosaïque de 2 ou 3), "credit" = mention commune.
-    Photo optionnelle : "photo" (chemin local), "credit" (auteur/licence), "cadrage" (CSS background-position)."""
-    if s.get("photos"):
-        cases = "".join(
-            f'<div class="case-emoji">{esc(p["emoji"])}</div>' if p.get("emoji") else
-            f'<div style="background-image:url({data_uri(p["photo"])});background-position:{esc(p.get("cadrage", "center"))}"></div>'
-            for p in s["photos"])
-        credit = f'<div class="credit">{esc(s.get("credit"))}</div>' if s.get("credit") else ""
-        return f'<div class="mosaique n{len(s["photos"])}">{cases}</div>{credit}'
-    if not s.get("photo"):
-        return ""
-    import base64, mimetypes
-    p = Path(s["photo"])
-    uri = f"data:{mimetypes.guess_type(p.name)[0] or 'image/jpeg'};base64," + base64.b64encode(p.read_bytes()).decode()
-    credit = f'<div class="credit">{esc(s.get("credit"))}</div>' if s.get("credit") else ""
-    return f'<div class="photo" style="background-image:url({uri});background-position:{esc(s.get("cadrage","center"))}"></div>{credit}'
-
-
 def classes(s):
-    if s.get("photos"):
-        return "slide couv-mosaique"
-    if not s.get("photo"):
-        return "slide"
-    return "slide couv" if s["type"] == "cover" else "slide avec-photo"
+    return "slide avec-photo" if s["type"] == "fait" and s.get("photo") else "slide"
 
 
 def page_html(data, i):
@@ -171,9 +146,9 @@ def page_html(data, i):
     numero = "" if s["type"] in ("cover", "cta") else f"{i}/{total - 2}"
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{make_css()}</style></head>
     <body><div class="{classes(s)}">
-      {bloc_photo(s) or '<div class="rond r1"></div><div class="rond r2"></div>'}
+      <div class="rond r1"></div><div class="rond r2"></div>
       <div class="haut"><span class="badge">{esc(data['serie'])}</span><span>{numero}</span></div>
-      <div class="centre">{corps_slide(s)}</div>
+      <div class="centre">{corps_slide(s, data)}</div>
       <div class="bas"><span class="compte">{logo_svg(data)}{esc(data['compte'])}</span><div class="points">{points}</div></div>
     </div></body></html>"""
 
@@ -194,7 +169,7 @@ def main():
             reduit = page.evaluate("""() => {
                 const c = document.querySelector('.centre'); let n = 0;
                 while (c.scrollHeight > c.clientHeight + 1 && n < 12) {
-                    c.querySelectorAll('h1,h2,p').forEach(e => {
+                    c.querySelectorAll('h1,h2,p,.sous').forEach(e => {
                         e.style.fontSize = (parseFloat(getComputedStyle(e).fontSize) * 0.95) + 'px'; });
                     n++; }
                 return n; }""")

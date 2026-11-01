@@ -38,7 +38,9 @@
       "type": "fait",
       "emoji": "🦑",
       "titre": "Le calmar vampire mange des déchets",
-      "texte": "Malgré son nom, ce céphalopode des abysses ne chasse pas : il attrape la « neige marine », des débris qui tombent de la surface, et l'enrobe de mucus."
+      "texte": "Malgré son nom, ce céphalopode des abysses ne chasse pas : il attrape la « neige marine », des débris qui tombent de la surface, et l'enrobe de mucus.",
+      "photo": "faune_extreme/photos/calmar_vampire.jpg",
+      "credit": "Photo : Internet Archive Book Images (domaine public)"
     },
     {
       "type": "cta",
