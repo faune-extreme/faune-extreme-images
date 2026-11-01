@@ -1,0 +1,63 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux corps hors normes",
+      "sous_titre": "Le n°1 a le sang bleu →",
+      "photos": [
+        {
+          "photo": "faune_extreme/photos/poulpe.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/sterne.jpg",
+          "cadrage": "center"
+        },
+        {
+          "photo": "faune_extreme/photos/rat_taupe.jpg",
+          "cadrage": "center"
+        }
+      ],
+      "credit": "Photos iNaturalist : domaine public, Blake Ross (CC BY), Matthew Inabinett (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐙",
+      "titre": "Le poulpe a trois cœurs et le sang bleu",
+      "texte": "Deux cœurs irriguent ses branchies, un troisième le reste du corps. Et son sang est bleu : il transporte l'oxygène grâce au cuivre de l'hémocyanine, pas au fer.",
+      "photo": "faune_extreme/photos/poulpe.jpg",
+      "credit": "Photo : iNaturalist (domaine public, CC0)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐦",
+      "titre": "La sterne arctique vit un été sans fin",
+      "texte": "Elle file de l'Arctique à l'Antarctique et revient chaque année : environ 70 000 km, selon des mini-balises. Sur une vie, cela équivaudrait à trois allers-retours Terre-Lune.",
+      "photo": "faune_extreme/photos/sterne.jpg",
+      "credit": "Photo : Blake Ross / iNaturalist (CC BY)"
+    },
+    {
+      "type": "fait",
+      "emoji": "🐀",
+      "titre": "Le rat-taupe nu tient 18 min sans oxygène",
+      "texte": "En laboratoire, ce petit rongeur africain a survécu 18 minutes sans oxygène. Son secret : il brûle du fructose, comme une plante, pour garder son cœur et son cerveau en marche.",
+      "photo": "faune_extreme/photos/rat_taupe.jpg",
+      "credit": "Photo : Matthew Inabinett / iNaturalist (CC BY)"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel aimerais-tu être ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

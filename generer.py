@@ -38,7 +38,7 @@ body {{
 .r2 {{ width:380px; height:380px; left:-160px; bottom:-140px; }}
 .haut {{ display:flex; justify-content:space-between; align-items:center; font-size:30px; font-weight:600; color:{TEXTE_DOUX}; }}
 .badge {{ background:{ACCENT}; color:{FOND}; padding:12px 26px; border-radius:40px; font-weight:800; letter-spacing:.5px; }}
-.centre {{ flex:1; display:flex; flex-direction:column; justify-content:center; }}
+.centre {{ flex:1; min-height:0; overflow:hidden; display:flex; flex-direction:column; justify-content:center; }}
 .emoji {{ font-size:150px; line-height:1; margin-bottom:56px; }}
 h1 {{ font-size:96px; line-height:1.05; font-weight:800; letter-spacing:-2px; }}
 h2 {{ font-size:76px; line-height:1.08; font-weight:800; letter-spacing:-1.5px; margin-bottom:44px; }}
@@ -52,6 +52,15 @@ p {{ font-size:44px; line-height:1.4; color:{TEXTE}; opacity:.88; font-weight:40
 .points {{ display:flex; gap:12px; }}
 .points span {{ width:14px; height:14px; border-radius:50%; background:{TEXTE_DOUX}; opacity:.35; }}
 .points span.actif {{ background:{ACCENT}; opacity:1; width:40px; border-radius:7px; }}
+.photo {{ width:100%; height:470px; border-radius:28px; background-size:cover; background-repeat:no-repeat; flex-shrink:0; }}
+.credit {{ font-size:18px; color:{TEXTE_DOUX}; margin:12px 0 36px; text-align:right; }}
+.avec-photo .centre {{ justify-content:center; }}
+.avec-photo h2 {{ font-size:64px; margin-bottom:26px; }}
+.avec-photo p {{ font-size:38px; line-height:1.38; }}
+.pastilles {{ display:flex; gap:28px; margin-bottom:60px; }}
+.pastilles div {{ width:210px; height:210px; border-radius:50%; background-size:cover; background-position:center;
+   border:6px solid {ACCENT}; box-shadow:0 8px 30px rgba(0,0,0,.35); }}
+.credit-couv {{ font-size:17px; color:{TEXTE_DOUX}; margin-top:40px; opacity:.8; }}
 .action {{ margin-top:70px; display:inline-block; align-self:flex-start; background:{ACCENT}; color:{FOND};
            font-size:42px; font-weight:800; padding:30px 48px; border-radius:24px; }}
 """
@@ -71,12 +80,28 @@ def mettre_en_valeur(titre):
     return " ".join(mots[:-n]) + " <em>" + " ".join(mots[-n:]) + "</em>"
 
 
-def corps_slide(s):
+def photo_html(chemin, cadrage="center", classe="photo"):
+    return f'<div class="{classe}" style="background-image:url({data_uri(chemin)});background-position:{esc(cadrage)}"></div>'
+
+
+def corps_slide(s, data=None):
     t = s["type"]
     if t == "cover":
-        return f"""<div class="barre"></div>
+        faits = [f for f in (data or {}).get("slides", []) if f["type"] == "fait" and f.get("photo")]
+        pastilles = ""
+        if faits:
+            pastilles = '<div class="pastilles">' + "".join(
+                photo_html(f["photo"], f.get("cadrage", "center"), "") for f in faits) + "</div>"
+        credits = " · ".join(f["credit"].replace("Photo : ", "") for f in faits if f.get("credit"))
+        credit = f'<div class="credit-couv">Photos : {esc(credits)}</div>' if credits else ""
+        return f"""{pastilles}<div class="barre"></div>
             <h1>{mettre_en_valeur(s['titre'])}</h1>
-            <div class="sous">{esc(s.get('sous_titre'))}</div>"""
+            <div class="sous">{esc(s.get('sous_titre'))}</div>{credit}"""
+    if t == "fait" and s.get("photo"):
+        credit = f'<div class="credit">{esc(s.get("credit"))}</div>' if s.get("credit") else '<div style="height:36px"></div>'
+        return f"""{photo_html(s["photo"], s.get("cadrage", "center"))}{credit}
+            <h2>{mettre_en_valeur(s['titre'])}</h2>
+            <p>{esc(s['texte'])}</p>"""
     if t == "fait":
         return f"""<div class="emoji">{esc(s.get('emoji'))}</div>
             <h2>{mettre_en_valeur(s['titre'])}</h2>
@@ -104,16 +129,26 @@ def appliquer_style(data):
     TEXTE_DOUX = st.get("texte_doux", TEXTE_DOUX)
 
 
+def data_uri(chemin):
+    import base64, mimetypes
+    p = Path(chemin)
+    return f"data:{mimetypes.guess_type(p.name)[0] or 'image/jpeg'};base64," + base64.b64encode(p.read_bytes()).decode()
+
+
+def classes(s):
+    return "slide avec-photo" if s["type"] == "fait" and s.get("photo") else "slide"
+
+
 def page_html(data, i):
     total = len(data["slides"])
     s = data["slides"][i]
     points = "".join(f'<span class="{"actif" if k == i else ""}"></span>' for k in range(total))
     numero = "" if s["type"] in ("cover", "cta") else f"{i}/{total - 2}"
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{make_css()}</style></head>
-    <body><div class="slide">
+    <body><div class="{classes(s)}">
       <div class="rond r1"></div><div class="rond r2"></div>
       <div class="haut"><span class="badge">{esc(data['serie'])}</span><span>{numero}</span></div>
-      <div class="centre">{corps_slide(s)}</div>
+      <div class="centre">{corps_slide(s, data)}</div>
       <div class="bas"><span class="compte">{logo_svg(data)}{esc(data['compte'])}</span><div class="points">{points}</div></div>
     </div></body></html>"""
 
@@ -122,7 +157,7 @@ def main():
     fichier = Path(sys.argv[1] if len(sys.argv) > 1 else "contenu.json")
     data = json.loads(fichier.read_text(encoding="utf-8"))
     appliquer_style(data)
-    sortie = Path("sortie") / fichier.stem
+    sortie = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("sortie") / fichier.stem
     sortie.mkdir(parents=True, exist_ok=True)
 
     with sync_playwright() as pw:
@@ -130,6 +165,16 @@ def main():
         page = nav.new_page(viewport={"width": LARGEUR, "height": HAUTEUR})
         for i in range(len(data["slides"])):
             page.set_content(page_html(data, i), wait_until="networkidle")
+            # Sécurité : si le texte déborde, on réduit la taille des polices jusqu'à ce qu'il tienne
+            reduit = page.evaluate("""() => {
+                const c = document.querySelector('.centre'); let n = 0;
+                while (c.scrollHeight > c.clientHeight + 1 && n < 12) {
+                    c.querySelectorAll('h1,h2,p,.sous').forEach(e => {
+                        e.style.fontSize = (parseFloat(getComputedStyle(e).fontSize) * 0.95) + 'px'; });
+                    n++; }
+                return n; }""")
+            if reduit:
+                print(f"  (texte réduit {reduit}x pour tenir sur la slide {i + 1})")
             chemin = sortie / f"slide_{i + 1:02d}.png"
             page.screenshot(path=str(chemin))
             print("✓", chemin)

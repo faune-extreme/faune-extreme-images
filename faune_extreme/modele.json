@@ -9,21 +9,27 @@
     },
     {
       "type": "fait",
-      "emoji": "🔬",
       "titre": "Le tardigrade a survécu à l'espace",
-      "texte": "Moins d'un millimètre, et pourtant : en 2007, des tardigrades ont passé 10 jours exposés au vide spatial. Certains sont revenus vivants."
+      "texte": "Moins d'un millimètre, et pourtant : en 2007, des tardigrades ont passé 10 jours exposés au vide spatial. Certains sont revenus vivants.",
+      "photo": "faune_extreme/photos/NOM_ANIMAL.jpg",
+      "credit": "Photo : AUTEUR / iNaturalist (CC BY)",
+      "cadrage": "center"
     },
     {
       "type": "fait",
-      "emoji": "🦐",
       "titre": "La squille frappe comme un marteau",
-      "texte": "Cette crevette-mante donne des coups à plus de 80 km/h. Assez pour briser des coquillages… et parfois la vitre d'un aquarium."
+      "texte": "Cette crevette-mante donne des coups à plus de 80 km/h. Assez pour briser des coquillages… et parfois la vitre d'un aquarium.",
+      "photo": "faune_extreme/photos/NOM_ANIMAL.jpg",
+      "credit": "Photo : AUTEUR / iNaturalist (CC BY)",
+      "cadrage": "center"
     },
     {
       "type": "fait",
-      "emoji": "🦅",
       "titre": "Le faucon pèlerin dépasse les 300 km/h",
-      "texte": "En piqué, c'est l'animal le plus rapide du monde. Plus vite qu'une voiture de course en ligne droite."
+      "texte": "En piqué, c'est l'animal le plus rapide du monde. Plus vite qu'une voiture de course en ligne droite.",
+      "photo": "faune_extreme/photos/NOM_ANIMAL.jpg",
+      "credit": "Photo : AUTEUR / iNaturalist (CC BY)",
+      "cadrage": "center"
     },
     {
       "type": "cta",
