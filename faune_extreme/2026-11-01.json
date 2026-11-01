@@ -1,0 +1,42 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux talents cachés",
+      "sous_titre": "Le n°1 fabrique sa propre crème solaire →"
+    },
+    {
+      "type": "fait",
+      "emoji": "🦛",
+      "titre": "L'hippopotame sécrète sa crème solaire",
+      "texte": "Sa « sueur rouge » n'est pas du sang ! Ces sécrétions rouges et orange absorbent les UV et freinent les bactéries, selon une étude publiée dans Nature en 2004."
+    },
+    {
+      "type": "fait",
+      "emoji": "🐦",
+      "titre": "Le cœur du colibri bat 1 200 fois par minute",
+      "texte": "En plein vol, le cœur de certains colibris dépasserait 1 200 battements par minute, jusqu'à vingt fois plus qu'un cœur humain au repos. La nuit, il ralentit fortement pour économiser l'énergie."
+    },
+    {
+      "type": "fait",
+      "emoji": "🐟",
+      "titre": "Le poisson-lune pond 300 millions d'œufs",
+      "texte": "Record du poisson le plus fertile : une seule femelle porterait environ 300 millions d'œufs minuscules. Adulte, ce géant des océans peut pourtant peser plus d'une tonne."
+    },
+    {
+      "type": "cta",
+      "titre": "Quel talent aimerais-tu avoir ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
