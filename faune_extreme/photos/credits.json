@@ -254,5 +254,26 @@
   "attribution": "Internet Archive Book Images, no known copyright restrictions (public domain)",
   "licence": "Domaine public",
   "credit": "Photo : Internet Archive Book Images (domaine public)"
+ },
+ "chouette": {
+  "taxon": "Tyto alba",
+  "observation": "https://www.inaturalist.org/observations/41933118",
+  "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Andrew Bazdyrev / iNaturalist (CC BY)"
+ },
+ "girafe": {
+  "taxon": "Giraffa camelopardalis camelopardalis",
+  "observation": "https://www.inaturalist.org/observations/330772102",
+  "attribution": "(c) B Pulman005, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : B Pulman005 / iNaturalist (CC BY) – Giraffa camelopardalis camelopardalis"
+ },
+ "baleine_bleue": {
+  "taxon": "Balaenoptera musculus",
+  "observation": "https://www.inaturalist.org/observations/172738494",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
  }
 }

@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux au corps hors norme",
+      "sous_titre": "Le n°1 tourne la tête aux trois quarts d'un tour →"
+    },
+    {
+      "type": "fait",
+      "titre": "La chouette tourne la tête à 270°",
+      "texte": "Ses yeux ne bougent pas dans leurs orbites, alors elle pivote la tête jusqu'à 270°. Des chercheurs de l'université Johns Hopkins ont découvert des réservoirs sanguins qui protègent son cerveau pendant la torsion.",
+      "photo": "faune_extreme/photos/chouette.jpg",
+      "credit": "Photo : Andrew Bazdyrev / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "La girafe a une langue de 50 cm",
+      "texte": "Sa langue mesurerait 45 à 50 cm. Sa couleur sombre, presque bleu-noir, la protégerait des coups de soleil pendant les longues heures passées à brouter la cime des acacias.",
+      "photo": "faune_extreme/photos/girafe.jpg",
+      "credit": "Photo : B Pulman005 / iNaturalist (CC BY)",
+      "cadrage": "center 20%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le cœur de la baleine bleue pèse 180 kg",
+      "texte": "Le plus grand cœur jamais conservé : celui d'une baleine bleue échouée au Canada en 2014. Préservé par le Musée royal de l'Ontario, il pèse environ 180 kg.",
+      "photo": "faune_extreme/photos/baleine_bleue.jpg",
+      "credit": "Photo : anonyme / iNaturalist (CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
