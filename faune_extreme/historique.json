@@ -80,6 +80,14 @@
         "girafe",
         "baleine bleue"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "animaux": [
+        "loutre de mer (Enhydra lutris)",
+        "bousier (Scarabaeus satyrus)",
+        "manchot empereur"
+      ]
     }
   ],
   "reserve": []

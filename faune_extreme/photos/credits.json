@@ -275,5 +275,26 @@
   "attribution": "no rights reserved",
   "licence": "CC0",
   "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "loutre_de_mer": {
+  "taxon": "Enhydra lutris nereis",
+  "observation": "https://www.inaturalist.org/observations/37218356",
+  "attribution": "(c) benjchristensen, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : benjchristensen / iNaturalist (CC BY) – Enhydra lutris nereis"
+ },
+ "bousier": {
+  "taxon": "Escarabaeus satyrus",
+  "observation": "https://www.inaturalist.org/observations/19683131",
+  "attribution": "(c) Robert Taylor, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Robert Taylor / iNaturalist (CC BY) – Escarabaeus satyrus"
+ },
+ "manchot_empereur": {
+  "taxon": "Aptenodytes forsteri",
+  "observation": "http://naturewatch.org.nz/observations/2606935",
+  "attribution": "(c) John Barkla, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : John Barkla / iNaturalist (CC BY)"
  }
 }

@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux astuces de survie géniales",
+      "sous_titre": "Le n°1 porte le manteau le plus chaud du monde →"
+    },
+    {
+      "type": "fait",
+      "titre": "La loutre de mer, fourrure record",
+      "texte": "Sans couche de graisse, elle compte sur son pelage contre l'eau glacée : il compterait jusqu'à 1 million de poils par pouce carré, soit environ 155 000 par cm². Un record mondial.",
+      "photo": "faune_extreme/photos/loutre_de_mer.jpg",
+      "credit": "Photo : benjchristensen / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le bousier suit la Voie lactée",
+      "texte": "La nuit, ce scarabée roule sa boule de crotte en ligne droite en se repérant à la lueur de la Voie lactée. Une première chez les insectes, démontrée par des chercheurs en 2013.",
+      "photo": "faune_extreme/photos/bousier.jpg",
+      "credit": "Photo : Robert Taylor / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le manchot empereur plonge à 564 m",
+      "texte": "Record de profondeur chez les oiseaux : 564 mètres sous la surface. Il peut aussi retenir son souffle plus de 27 minutes en ralentissant son cœur pour économiser son oxygène.",
+      "photo": "faune_extreme/photos/manchot_empereur.jpg",
+      "credit": "Photo : John Barkla / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Quelle astuce te bluffe le plus ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
