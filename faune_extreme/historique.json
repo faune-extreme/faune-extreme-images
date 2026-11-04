@@ -88,6 +88,14 @@
         "bousier (Scarabaeus satyrus)",
         "manchot empereur"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "animaux": [
+        "crocodile marin (Crocodylus porosus)",
+        "anguille électrique (Electrophorus voltai)",
+        "fourmi Dracula (Mystrium camillae)"
+      ]
     }
   ],
   "reserve": []

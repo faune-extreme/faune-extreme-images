@@ -296,5 +296,26 @@
   "attribution": "(c) John Barkla, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : John Barkla / iNaturalist (CC BY)"
+ },
+ "crocodile_marin": {
+  "taxon": "Crocodylus porosus",
+  "observation": "https://www.inaturalist.org/observations/14789694",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "fourmi_dracula": {
+  "taxon": "Mystrium camillae",
+  "observation": "https://www.inaturalist.org/observations/256093113",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "anguille_electrique": {
+  "taxon": "Electrophorus electricus",
+  "observation": "https://www.inaturalist.org/taxa/99786",
+  "attribution": "(c) Stan Shebs, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Stan Shebs / iNaturalist (CC BY-SA) – Electrophorus electricus"
  }
 }

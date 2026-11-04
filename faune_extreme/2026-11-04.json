@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux armes les plus redoutables",
+      "sous_titre": "Le n°2 envoie une décharge de 860 volts →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le crocodile marin, morsure record",
+      "texte": "En 2012, des chercheurs ont mesuré sa morsure à 16 460 newtons, soit environ 1,7 tonne de force : la plus puissante jamais enregistrée chez un animal vivant.",
+      "photo": "faune_extreme/photos/crocodile_marin.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "L'anguille électrique, 860 volts",
+      "texte": "Décrite en 2019 en Amazonie, l'espèce Electrophorus voltai a produit une décharge de 860 volts, un record dans le règne animal. Pourtant, ce n'est pas une anguille : c'est un poisson-couteau.",
+      "photo": "faune_extreme/photos/anguille_electrique.jpg",
+      "credit": "Photo : Stan Shebs / iNaturalist (CC BY-SA) – Electrophorus electricus",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "La fourmi Dracula, mâchoires éclair",
+      "texte": "Ses mandibules se referment à 90 mètres par seconde, soit plus de 320 km/h : le mouvement le plus rapide connu chez un animal. Elle assomme ses proies d'un seul claquement.",
+      "photo": "faune_extreme/photos/fourmi_dracula.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Quelle arme te fait le plus peur ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
