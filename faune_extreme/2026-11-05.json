@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui font les plus longs voyages",
+      "sous_titre": "Le n°1 a traversé le Pacifique à la nage →"
+    },
+    {
+      "type": "fait",
+      "titre": "La tortue luth a traversé le Pacifique",
+      "texte": "Suivie par satellite, une tortue luth a nagé 20 558 km, de l'Indonésie jusqu'à l'Oregon, en 647 jours. L'une des plus longues migrations jamais enregistrées chez un vertébré.",
+      "photo": "faune_extreme/photos/tortue_luth.jpg",
+      "credit": "Photo : RJ Baltierra / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le caribou, marcheur de l'extrême",
+      "texte": "Chaque année, les caribous des hardes Bathurst (Canada) et Porcupine (Alaska) parcourent jusqu'à 1 350 km aller-retour à vol d'oiseau : la plus longue migration terrestre connue.",
+      "photo": "faune_extreme/photos/caribou.jpg",
+      "credit": "Photo : Brian Gratwicke / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le monarque vole jusqu'au Mexique",
+      "texte": "Moins d'un gramme, et pourtant ce papillon parcourt 3 000 à 4 000 km du Canada jusqu'au Mexique. Sans jamais y être allé : il s'oriente grâce au soleil.",
+      "photo": "faune_extreme/photos/monarque.jpg",
+      "credit": "Photo : Leila Dasher / iNaturalist (CC BY)",
+      "cadrage": "center 25%"
+    },
+    {
+      "type": "cta",
+      "titre": "Quel voyage t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

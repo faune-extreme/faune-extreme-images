@@ -317,5 +317,26 @@
   "attribution": "(c) Stan Shebs, some rights reserved (CC BY-SA)",
   "licence": "CC BY-SA",
   "credit": "Photo : Stan Shebs / iNaturalist (CC BY-SA) – Electrophorus electricus"
+ },
+ "caribou": {
+  "taxon": "Rangifer tarandus",
+  "observation": "http://www.inaturalist.org/observations/78159",
+  "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Brian Gratwicke / iNaturalist (CC BY)"
+ },
+ "tortue_luth": {
+  "taxon": "Dermochelys coriacea",
+  "observation": "https://www.inaturalist.org/observations/38368851",
+  "attribution": "(c) RJ Baltierra, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : RJ Baltierra / iNaturalist (CC BY)"
+ },
+ "monarque": {
+  "taxon": "Danaus plexippus",
+  "observation": "https://www.inaturalist.org/observations/184955820",
+  "attribution": "(c) Leila Dasher, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Leila Dasher / iNaturalist (CC BY)"
  }
 }
