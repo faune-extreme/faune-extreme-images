@@ -104,6 +104,14 @@
         "caribou (Rangifer tarandus)",
         "papillon monarque (Danaus plexippus)"
       ]
+    },
+    {
+      "date": "2026-11-06",
+      "animaux": [
+        "aigle royal (Aquila chrysaetos)",
+        "taupe à nez étoilé (Condylura cristata)",
+        "petit paon de nuit (Saturnia pavonia)"
+      ]
     }
   ],
   "reserve": []

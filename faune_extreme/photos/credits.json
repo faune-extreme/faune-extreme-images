@@ -338,5 +338,26 @@
   "attribution": "(c) Leila Dasher, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Leila Dasher / iNaturalist (CC BY)"
+ },
+ "aigle_royal": {
+  "taxon": "Aquila chrysaetos canadensis",
+  "observation": "https://www.inaturalist.org/observations/346314808",
+  "attribution": "(c) Brooke J., some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Brooke J. / iNaturalist (CC BY) – Aquila chrysaetos canadensis"
+ },
+ "taupe_nez_etoile": {
+  "taxon": "Condylura cristata",
+  "observation": "https://www.inaturalist.org/observations/237500248",
+  "attribution": "(c) Fyn Kynd, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Fyn Kynd / iNaturalist (CC BY-SA)"
+ },
+ "petit_paon_nuit": {
+  "taxon": "Saturnia pavoniella",
+  "observation": "https://www.inaturalist.org/observations/151202722",
+  "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : SteveM4560 / iNaturalist (CC BY) – Saturnia pavoniella"
  }
 }

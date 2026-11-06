@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux super-sens incroyables",
+      "sous_titre": "Le n°1 repère sa proie à plus d'un km →"
+    },
+    {
+      "type": "fait",
+      "titre": "L'aigle royal voit à plus d'un kilomètre",
+      "texte": "Ses yeux sont presque aussi gros que les nôtres, dans une tête bien plus petite. Résultat : il repérerait un lapin à plus d'un kilomètre et demi, là où nous ne verrions qu'un point.",
+      "photo": "faune_extreme/photos/aigle_royal.jpg",
+      "credit": "Photo : Brooke J. / iNaturalist (CC BY) – Aquila chrysaetos canadensis",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "fait",
+      "titre": "La taupe à nez étoilé mange en un éclair",
+      "texte": "Son nez en étoile compte 22 tentacules ultrasensibles. Elle reconnaît et avale une proie en 120 millisecondes seulement : plus vite qu'un clignement d'œil. C'est le mammifère qui mange le plus vite au monde.",
+      "photo": "faune_extreme/photos/taupe_nez_etoile.jpg",
+      "credit": "Photo : Fyn Kynd / iNaturalist (CC BY-SA)",
+      "cadrage": "center 60%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le petit paon de nuit flaire sa belle de loin",
+      "texte": "Grâce à ses antennes en forme de plumes, le mâle capterait le parfum d'une femelle à plusieurs kilomètres. Quelques molécules suffisent pour qu'il remonte la piste jusqu'à elle.",
+      "photo": "faune_extreme/photos/petit_paon_nuit.jpg",
+      "credit": "Photo : SteveM4560 / iNaturalist (CC BY) – Saturnia pavoniella",
+      "cadrage": "center 15%"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel t'a le plus bluffé ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
