@@ -61,6 +61,10 @@ p {{ font-size:44px; line-height:1.4; color:{TEXTE}; opacity:.88; font-weight:40
 .pastilles {{ display:flex; gap:28px; margin-bottom:60px; }}
 .pastilles div {{ width:210px; height:210px; border-radius:50%; background-size:cover; background-position:center;
    border:6px solid {ACCENT}; box-shadow:0 8px 30px rgba(0,0,0,.35); }}
+.choix {{ list-style:none; margin:50px 0 30px; display:flex; flex-direction:column; gap:22px; }}
+.choix li {{ display:flex; align-items:center; gap:26px; font-size:46px; font-weight:700; color:{TEXTE}; }}
+.choix .num {{ flex-shrink:0; width:74px; height:74px; border-radius:50%; background:{ACCENT}; color:{FOND};
+   display:flex; align-items:center; justify-content:center; font-size:40px; font-weight:800; }}
 .credit-couv {{ font-size:17px; color:{TEXTE_DOUX}; margin-top:40px; opacity:.8; }}
 .action {{ margin-top:70px; display:inline-block; align-self:flex-start; background:{ACCENT}; color:{FOND};
            font-size:42px; font-weight:800; padding:30px 48px; border-radius:24px; }}
@@ -107,6 +111,12 @@ def corps_slide(s, data=None):
         return f"""<div class="emoji">{esc(s.get('emoji'))}</div>
             <h2>{mettre_en_valeur(s['titre'])}</h2>
             <p>{esc(s['texte'])}</p>"""
+    if t == "cta" and s.get("choix"):
+        lignes = "".join(f'<li><span class="num">{k}</span>{esc(c)}</li>' for k, c in enumerate(s["choix"], 1))
+        return f"""<h1>{mettre_en_valeur(s['titre'])}</h1>
+            <ul class="choix">{lignes}</ul>
+            <p class="sous" style="color:{TEXTE};margin-top:10px">{esc(s.get('texte'))}</p>
+            <div class="action">{esc(s.get('action'))}</div>"""
     if t == "cta":
         return f"""<h1>{mettre_en_valeur(s['titre'])}</h1>
             <p class="sous" style="color:{TEXTE}">{esc(s.get('texte'))}</p>
