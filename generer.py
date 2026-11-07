@@ -17,6 +17,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 LARGEUR, HAUTEUR = 1080, 1350
+PHOTO_H, PADDING_V = 470, 110   # format Reel (--reel) : 1080x1920, photo plus haute
 
 # Couleurs : changer ici pour un autre style
 FOND = "#0F1B2D"        # bleu nuit
@@ -32,7 +33,7 @@ body {{
   background:{FOND}; color:{TEXTE};
   font-family:'Inter','Inter Display',sans-serif;
 }}
-.slide {{ position:relative; width:100%; height:100%; padding:110px 96px; display:flex; flex-direction:column; }}
+.slide {{ position:relative; width:100%; height:100%; padding:{PADDING_V}px 96px; display:flex; flex-direction:column; }}
 .rond {{ position:absolute; border-radius:50%; background:{ACCENT}; opacity:.08; }}
 .r1 {{ width:620px; height:620px; right:-220px; top:-200px; }}
 .r2 {{ width:380px; height:380px; left:-160px; bottom:-140px; }}
@@ -52,7 +53,7 @@ p {{ font-size:44px; line-height:1.4; color:{TEXTE}; opacity:.88; font-weight:40
 .points {{ display:flex; gap:12px; }}
 .points span {{ width:14px; height:14px; border-radius:50%; background:{TEXTE_DOUX}; opacity:.35; }}
 .points span.actif {{ background:{ACCENT}; opacity:1; width:40px; border-radius:7px; }}
-.photo {{ width:100%; height:470px; border-radius:28px; background-size:cover; background-repeat:no-repeat; flex-shrink:0; }}
+.photo {{ width:100%; height:{PHOTO_H}px; border-radius:28px; background-size:cover; background-repeat:no-repeat; flex-shrink:0; }}
 .credit {{ font-size:18px; color:{TEXTE_DOUX}; margin:12px 0 36px; text-align:right; }}
 .avec-photo .centre {{ justify-content:center; }}
 .avec-photo h2 {{ font-size:64px; margin-bottom:26px; }}
@@ -154,10 +155,15 @@ def page_html(data, i):
 
 
 def main():
-    fichier = Path(sys.argv[1] if len(sys.argv) > 1 else "contenu.json")
+    global HAUTEUR, PHOTO_H, PADDING_V
+    args = [a for a in sys.argv[1:] if a != "--reel"]
+    reel = "--reel" in sys.argv
+    if reel:
+        HAUTEUR, PHOTO_H, PADDING_V = 1920, 760, 230
+    fichier = Path(args[0] if args else "contenu.json")
     data = json.loads(fichier.read_text(encoding="utf-8"))
     appliquer_style(data)
-    sortie = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("sortie") / fichier.stem
+    sortie = Path(args[1]) if len(args) > 1 else Path("sortie") / (fichier.stem + ("_reel" if reel else ""))
     sortie.mkdir(parents=True, exist_ok=True)
 
     with sync_playwright() as pw:
