@@ -359,5 +359,26 @@
   "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : SteveM4560 / iNaturalist (CC BY) – Saturnia pavoniella"
+ },
+ "guepard": {
+  "taxon": "Acinonyx jubatus jubatus",
+  "observation": "https://www.inaturalist.org/observations/264485960",
+  "attribution": "(c) martin ingemansson, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : martin ingemansson / iNaturalist (CC BY) – Acinonyx jubatus jubatus"
+ },
+ "molosse_bresil": {
+  "taxon": "Tadarida brasiliensis",
+  "observation": "https://www.inaturalist.org/observations/135545664",
+  "attribution": "(c) Pablo G. Fernández-Santiago, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Pablo G. Fernández-Santiago / iNaturalist (CC BY)"
+ },
+ "cicindele": {
+  "taxon": "Cicindela campestris",
+  "observation": "https://www.inaturalist.org/observations/362712286",
+  "attribution": "(c) Alin, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Alin / iNaturalist (CC BY)"
  }
 }

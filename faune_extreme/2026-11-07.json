@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 bolides du monde animal",
+      "sous_titre": "Le n°1 laisse Usain Bolt sur place →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le guépard pulvérise le 100 mètres",
+      "texte": "En 2012, Sarah, une femelle guépard du zoo de Cincinnati, a couru le 100 mètres en 5,95 secondes, un record mondial. Usain Bolt, l'humain le plus rapide, met 9,58 secondes.",
+      "photo": "faune_extreme/photos/guepard.jpg",
+      "credit": "Photo : martin ingemansson / iNaturalist (CC BY) – Acinonyx jubatus jubatus",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "fait",
+      "titre": "La cicindèle court à en devenir aveugle",
+      "texte": "Certaines cicindèles parcourent jusqu'à 125 fois leur longueur par seconde. Si vite que leurs yeux ne captent plus assez de lumière : elles s'arrêtent en pleine course pour retrouver leur proie.",
+      "photo": "faune_extreme/photos/cicindele.jpg",
+      "credit": "Photo : Alin / iNaturalist (CC BY) – Cicindela campestris",
+      "cadrage": "45% 50%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le molosse du Brésil vole à 160 km/h",
+      "texte": "Cette chauve-souris d'à peine 12 grammes aurait atteint 160 km/h en vol horizontal, selon des chercheurs de l'Institut Max-Planck. Elle serait plus rapide que tous les oiseaux en vol battu.",
+      "photo": "faune_extreme/photos/molosse_bresil.jpg",
+      "credit": "Photo : Pablo G. Fernández-Santiago / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel est le plus impressionnant ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
