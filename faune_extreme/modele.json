@@ -33,9 +33,14 @@
     },
     {
       "type": "cta",
-      "titre": "Lequel t'a le plus bluffé ?",
-      "texte": "Dis-le en commentaire 👇",
-      "action": "Abonne-toi pour plus d'animaux extrêmes"
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "NOM ANIMAL 1",
+        "NOM ANIMAL 2",
+        "NOM ANIMAL 3"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
     }
   ],
   "logo": "faune_extreme/logo.svg",
