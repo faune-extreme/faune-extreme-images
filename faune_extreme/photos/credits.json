@@ -380,5 +380,26 @@
   "attribution": "(c) Alin, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Alin / iNaturalist (CC BY)"
+ },
+ "dauphin": {
+  "taxon": "Tursiops truncatus",
+  "observation": "https://www.inaturalist.org/observations/194381645",
+  "attribution": "(c) Punkus, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Punkus / iNaturalist (CC BY)"
+ },
+ "fregate": {
+  "taxon": "Fregata minor",
+  "observation": "http://www.inaturalist.org/observations/4439202",
+  "attribution": "(c) James Weaver, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : James Weaver / iNaturalist (CC BY)"
+ },
+ "loir": {
+  "taxon": "Glis glis",
+  "observation": "https://www.inaturalist.org/observations/38826834",
+  "attribution": "(c) Kazimieras Martinaitis, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Kazimieras Martinaitis / iNaturalist (CC BY)"
  }
 }

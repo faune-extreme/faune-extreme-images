@@ -1,0 +1,48 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui dorment comme personne",
+      "sous_titre": "Le n°1 dort avec un demi-cerveau →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le dauphin dort avec un demi-cerveau",
+      "texte": "Pour ne pas se noyer, le grand dauphin endort une moitié de son cerveau à la fois, souvent en gardant un œil ouvert. L'autre moitié veille pour respirer et guetter les prédateurs.",
+      "photo": "faune_extreme/photos/dauphin.jpg",
+      "credit": "Photo : Punkus / iNaturalist (CC BY)",
+      "cadrage": "62% 50%"
+    },
+    {
+      "type": "fait",
+      "titre": "La frégate dort en plein vol",
+      "texte": "Cet oiseau marin peut rester des semaines sans se poser. Des capteurs ont révélé qu'en vol, il ne dort qu'environ 42 minutes par jour, en micro-siestes d'une dizaine de secondes.",
+      "photo": "faune_extreme/photos/fregate.jpg",
+      "credit": "Photo : James Weaver / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le loir peut hiberner 11 mois",
+      "texte": "Les années où les hêtres ne fructifient pas, certains loirs gris renoncent à se reproduire et retournent sous terre dès l'été. Des chercheurs ont observé jusqu'à 11 mois d'hibernation d'affilée.",
+      "photo": "faune_extreme/photos/loir.jpg",
+      "credit": "Photo : Kazimieras Martinaitis / iNaturalist (CC BY)",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "cta",
+      "titre": "Lequel dort le plus bizarrement ?",
+      "texte": "Dis-le en commentaire 👇",
+      "action": "Abonne-toi pour plus d'animaux extrêmes"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
