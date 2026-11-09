@@ -401,5 +401,26 @@
   "attribution": "(c) Kazimieras Martinaitis, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Kazimieras Martinaitis / iNaturalist (CC BY)"
+ },
+ "cercope": {
+  "taxon": "Philaenus spumarius",
+  "observation": "https://www.inaturalist.org/observations/55937142",
+  "attribution": "(c) carbenoid, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : carbenoid / iNaturalist (CC BY)"
+ },
+ "kangourou_roux": {
+  "taxon": "Osphranter rufus",
+  "observation": "https://www.inaturalist.org/observations/17399455",
+  "attribution": "(c) Rolf Lawrenz, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Rolf Lawrenz / iNaturalist (CC BY)"
+ },
+ "poisson_volant": {
+  "taxon": "Cheilopogon heterurus",
+  "observation": "https://www.inaturalist.org/observations/179953032",
+  "attribution": "(c) Yann Geshors, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Yann Geshors / iNaturalist (CC BY) – Cheilopogon heterurus"
  }
 }

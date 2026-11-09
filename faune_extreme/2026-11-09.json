@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui défient la gravité",
+      "sous_titre": "Le n°3 saute 100 fois sa taille →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le kangourou roux bondit de 9 mètres",
+      "texte": "D'un seul bond, il franchirait jusqu'à 9 mètres, presque la longueur d'un bus. Son secret : ses tendons stockent l'énergie comme des ressorts, si bien qu'il dépense à peine plus en accélérant.",
+      "photo": "faune_extreme/photos/kangourou_roux.jpg",
+      "credit": "Photo : Rolf Lawrenz / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le poisson volant plane 45 secondes",
+      "texte": "En 2008, la télévision japonaise NHK a filmé un poisson volant resté 45 secondes en l'air. En planant au ras des vagues, certains parcourraient jusqu'à 400 mètres.",
+      "photo": "faune_extreme/photos/poisson_volant.jpg",
+      "credit": "Photo : Yann Geshors / iNaturalist (CC BY) – Cheilopogon heterurus",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le cercope saute 100 fois sa taille",
+      "texte": "À peine 6 mm, et pourtant cet insecte des prairies saute jusqu'à 70 cm de haut. Au décollage, il encaisse une force de plus de 400 fois son poids.",
+      "photo": "faune_extreme/photos/cercope.jpg",
+      "credit": "Photo : carbenoid / iNaturalist (CC BY)",
+      "cadrage": "center 15%"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le kangourou roux",
+        "Le poisson volant",
+        "Le cercope"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
