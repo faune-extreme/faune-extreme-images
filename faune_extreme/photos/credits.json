@@ -422,5 +422,26 @@
   "attribution": "(c) Yann Geshors, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Yann Geshors / iNaturalist (CC BY) – Cheilopogon heterurus"
+ },
+ "chien": {
+  "taxon": "Canis familiaris familiaris",
+  "observation": "https://www.inaturalist.org/observations/130916975",
+  "attribution": "(c) Pavel Smirnov, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Pavel Smirnov / iNaturalist (CC BY) – Canis familiaris familiaris"
+ },
+ "requin_marteau": {
+  "taxon": "Sphyrna mokarran",
+  "observation": "https://www.inaturalist.org/observations/200503015",
+  "attribution": "(c) Robin White, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Robin White / iNaturalist (CC BY)"
+ },
+ "crotale": {
+  "taxon": "Crotalus atrox",
+  "observation": "http://www.inaturalist.org/observations/2484922",
+  "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Sam Kieschnick / iNaturalist (CC BY)"
  }
 }

@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux sens surhumains",
+      "sous_titre": "Le n°3 voit la chaleur dans le noir →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le chien flaire un sucre dans 2 piscines",
+      "texte": "Jusqu'à 300 millions de récepteurs olfactifs, contre 6 millions chez nous ! Il repérerait une cuillère de sucre diluée dans l'équivalent de deux piscines olympiques.",
+      "photo": "faune_extreme/photos/chien.jpg",
+      "credit": "Photo : Pavel Smirnov / iNaturalist (CC BY) – Canis familiaris familiaris",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le requin-marteau sent l'électricité",
+      "texte": "Sa tête en marteau est criblée de pores électrosensibles. Il balaie le fond comme un détecteur de métaux et capte le faible courant des poissons cachés dans le sable.",
+      "photo": "faune_extreme/photos/requin_marteau.jpg",
+      "credit": "Photo : Robin White / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le crotale voit la chaleur dans le noir",
+      "texte": "Deux fossettes près de ses narines captent les infrarouges. Dans le noir total, il repérerait une souris jusqu'à un mètre et sentirait un écart de 0,2 °C.",
+      "photo": "faune_extreme/photos/crotale.jpg",
+      "credit": "Photo : Sam Kieschnick / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le chien",
+        "Le requin-marteau",
+        "Le crotale"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
