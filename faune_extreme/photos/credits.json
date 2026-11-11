@@ -443,5 +443,26 @@
   "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Sam Kieschnick / iNaturalist (CC BY)"
+ },
+ "baleine_boreale": {
+  "taxon": "Balaena mysticetus",
+  "observation": "https://www.inaturalist.org/observations/310546447",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "fourmi_noire": {
+  "taxon": "Lasius niger",
+  "observation": "https://www.inaturalist.org/observations/44842930",
+  "attribution": "(c) Gilles San Martin, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Gilles San Martin / iNaturalist (CC BY-SA)"
+ },
+ "tortue_geante": {
+  "taxon": "Aldabrachelys gigantea",
+  "observation": "https://www.inaturalist.org/observations/201956010",
+  "attribution": "(c) Matthew Morgan, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Matthew Morgan / iNaturalist (CC BY)"
  }
 }

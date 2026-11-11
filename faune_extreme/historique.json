@@ -144,6 +144,14 @@
         "grand requin-marteau (Sphyrna mokarran)",
         "crotale diamantin de l'Ouest (Crotalus atrox)"
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "animaux": [
+        "baleine boréale (Balaena mysticetus)",
+        "fourmi noire des jardins (Lasius niger)",
+        "tortue géante (Jonathan, Aldabrachelys gigantea hololissa)"
+      ]
     }
   ],
   "reserve": []

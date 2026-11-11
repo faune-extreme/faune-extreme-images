@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui défient le temps",
+      "sous_titre": "Le n°1 aurait plus de 200 ans →"
+    },
+    {
+      "type": "fait",
+      "titre": "La baleine boréale vivrait 200 ans",
+      "texte": "Des scientifiques ont estimé l'âge d'un mâle à 211 ans grâce au cristallin de son œil. Des chasseurs ont même retrouvé dans ces baleines des pointes de harpon vieilles d'un siècle.",
+      "photo": "faune_extreme/photos/baleine_boreale.jpg",
+      "credit": "Photo : iNaturalist (domaine public, CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Une reine fourmi a vécu près de 29 ans",
+      "texte": "Une reine de fourmi noire, l'espèce de nos jardins, a vécu 28 ans et 9 mois dans un nid d'élevage. C'est la plus longue vie adulte jamais mesurée chez un insecte.",
+      "photo": "faune_extreme/photos/fourmi_noire.jpg",
+      "credit": "Photo : Gilles San Martin / iNaturalist (CC BY-SA)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Jonathan, la tortue de 194 ans",
+      "texte": "Née vers 1832, cette tortue géante vit sur l'île de Sainte-Hélène. Elle est plus vieille que le téléphone, l'ampoule et l'avion ! C'est l'animal terrestre vivant le plus âgé connu.",
+      "photo": "faune_extreme/photos/tortue_geante.jpg",
+      "credit": "Photo : Matthew Morgan / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "La baleine boréale",
+        "La fourmi noire",
+        "La tortue géante"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
