@@ -464,5 +464,26 @@
   "attribution": "(c) Matthew Morgan, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Matthew Morgan / iNaturalist (CC BY)"
+ },
+ "ours_polaire": {
+  "taxon": "Ursus maritimus",
+  "observation": "https://www.inaturalist.org/observations/270241030",
+  "attribution": "(c) Emily Turteltaub Nelson, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Emily Turteltaub Nelson / iNaturalist (CC BY)"
+ },
+ "pigeon": {
+  "taxon": "Columba livia",
+  "observation": "https://www.inaturalist.org/taxa/3017",
+  "attribution": "(c) Birds of Gilgit-Baltistan, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Birds of Gilgit-Baltistan / iNaturalist (CC BY-SA)"
+ },
+ "poisson_chat": {
+  "taxon": "Ictalurus punctatus",
+  "observation": "https://www.inaturalist.org/observations/246814623",
+  "attribution": "(c) Dean Hester, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Dean Hester / iNaturalist (CC BY)"
  }
 }

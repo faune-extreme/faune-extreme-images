@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux sens les plus étranges",
+      "sous_titre": "Le n°2 aurait une boussole dans le foie →"
+    },
+    {
+      "type": "fait",
+      "titre": "L'ours polaire flairerait un phoque à 1 km",
+      "texte": "Son odorat est son arme de chasse. Il pourrait sentir un phoque à plus d'un kilomètre, et même le repérer caché sous un mètre de neige.",
+      "photo": "faune_extreme/photos/ours_polaire.jpg",
+      "credit": "Photo : Emily Turteltaub Nelson / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le pigeon aurait une boussole dans le foie",
+      "texte": "Il retrouve son pigeonnier de très loin. Des chercheurs ont découvert dans son foie des cellules chargées de fer, sensibles au champ magnétique. Sans elles, il se perd par temps gris.",
+      "photo": "faune_extreme/photos/pigeon.jpg",
+      "credit": "Photo : Birds of Gilgit-Baltistan / iNaturalist (CC BY-SA)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le poisson-chat goûte avec tout son corps",
+      "texte": "Ses papilles couvrent toute sa peau, des barbillons à la queue. Un gros spécimen en aurait jusqu'à 175 000, contre environ 10 000 pour nous. Une vraie langue qui nage !",
+      "photo": "faune_extreme/photos/poisson_chat.jpg",
+      "credit": "Photo : Dean Hester / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "L'ours polaire",
+        "Le pigeon",
+        "Le poisson-chat"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
