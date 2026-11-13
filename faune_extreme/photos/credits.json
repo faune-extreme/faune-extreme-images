@@ -485,5 +485,26 @@
   "attribution": "(c) Dean Hester, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Dean Hester / iNaturalist (CC BY)"
+ },
+ "castor": {
+  "taxon": "Castor canadensis",
+  "observation": "https://www.inaturalist.org/observations/337321454",
+  "attribution": "(c) Agustin Aga, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Agustin Aga / iNaturalist (CC BY)"
+ },
+ "termite": {
+  "taxon": "Syntermes dirus",
+  "observation": "https://www.inaturalist.org/observations/74731903",
+  "attribution": "(c) Mario Barroso, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Mario Barroso / iNaturalist (CC BY)"
+ },
+ "poisson_globe": {
+  "taxon": "Torquigener pleurogramma",
+  "observation": "https://www.inaturalist.org/observations/333827892",
+  "attribution": "(c) Lawrence Hylton, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Lawrence Hylton / iNaturalist (CC BY) – Torquigener pleurogramma"
  }
 }

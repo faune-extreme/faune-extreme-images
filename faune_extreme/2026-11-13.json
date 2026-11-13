@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux bâtisseurs de génie",
+      "sous_titre": "Le n°1 a construit un barrage visible depuis l'espace →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le castor a bâti un barrage de 850 m",
+      "texte": "Au Canada, des castors ont élevé le plus long barrage connu : environ 850 mètres, repéré en 2007 sur des images satellites. Le chantier aurait débuté dans les années 1970 !",
+      "photo": "faune_extreme/photos/castor.jpg",
+      "credit": "Photo : Agustin Aga / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le poisson-globe dessine des cercles géants",
+      "texte": "Au Japon, un petit poisson de 12 cm sculpte dans le sable un cercle de 2 mètres, rien qu'avec ses nageoires. Environ une semaine de travail pour séduire une femelle !",
+      "photo": "faune_extreme/photos/poisson_globe.jpg",
+      "credit": "Photo : Lawrence Hylton / iNaturalist (CC BY) – Torquigener pleurogramma",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Des termites bâtissent depuis 4 000 ans",
+      "texte": "Au Brésil, 200 millions de buttes couvrent une surface grande comme la Grande-Bretagne. Certaines auraient 4 000 ans. Terre déplacée : l'équivalent de 4 000 pyramides de Khéops !",
+      "photo": "faune_extreme/photos/termite.jpg",
+      "credit": "Photo : Mario Barroso / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le castor",
+        "Le poisson-globe",
+        "Les termites"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
