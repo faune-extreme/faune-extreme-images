@@ -5,7 +5,7 @@ Utilisation :
     python3 generer.py faune_extreme/AAAA-MM-JJ.json --reel      -> sortie/AAAA-MM-JJ_reel/slide_0N.png
     python3 faire_reel.py sortie/AAAA-MM-JJ_reel reel.mp4
 
-Durées : couverture 4 s, chaque fait 9 s (le temps de lire tranquillement), slide finale 5 s ; léger zoom et transition glissée.
+Durées : couverture 4 s, chaque fait 7 s (le temps de lire), slide finale 5 s ; léger zoom et transition glissée.
 Nécessite ffmpeg.
 """
 import subprocess
@@ -19,7 +19,7 @@ FONDU = 0.5
 def main():
     dossier, sortie = Path(sys.argv[1]), Path(sys.argv[2])
     slides = sorted(dossier.glob("slide_*.png"))
-    durees = [4] + [9] * (len(slides) - 2) + [5]
+    durees = [4] + [7] * (len(slides) - 2) + [5]
     with tempfile.TemporaryDirectory() as tmp:
         clips = []
         for i, (img, d) in enumerate(zip(slides, durees)):
