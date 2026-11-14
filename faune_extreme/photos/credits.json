@@ -506,5 +506,26 @@
   "attribution": "(c) Lawrence Hylton, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Lawrence Hylton / iNaturalist (CC BY) – Torquigener pleurogramma"
+ },
+ "hermine": {
+  "taxon": "Mustela erminea",
+  "observation": "https://www.inaturalist.org/observations/70455542",
+  "attribution": "(c) E. A., some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : E. A. / iNaturalist (CC BY)"
+ },
+ "seiche": {
+  "taxon": "Sepia officinalis",
+  "observation": "https://www.inaturalist.org/observations/289568721",
+  "attribution": "(c) Charlotte Kirchner, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Charlotte Kirchner / iNaturalist (CC BY)"
+ },
+ "phasme": {
+  "taxon": "Phryganistria bachmaensis",
+  "observation": "https://www.inaturalist.org/observations/173209535",
+  "attribution": "(c) Nadezhda Bortnikova, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Nadezhda Bortnikova / iNaturalist (CC BY) – Phryganistria bachmaensis"
  }
 }

@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 maîtres du camouflage",
+      "sous_titre": "Le n°2 change de couleur sans les voir →"
+    },
+    {
+      "type": "fait",
+      "titre": "L'hermine change de manteau en hiver",
+      "texte": "Dans les régions enneigées, son pelage brun devient blanc pur à l'approche de l'hiver. Seul le bout de sa queue reste noir : un leurre qui détournerait l'attaque des rapaces.",
+      "photo": "faune_extreme/photos/hermine.jpg",
+      "credit": "Photo : E. A. / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "La seiche change de couleur sans la voir",
+      "texte": "En moins d'une seconde, des milliers de cellules pigmentaires redessinent sa peau pour imiter le décor. Le plus fou : ses yeux ne distinguent pas les couleurs.",
+      "photo": "faune_extreme/photos/seiche.jpg",
+      "credit": "Photo : Charlotte Kirchner / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le phasme géant mesure 62 cm",
+      "texte": "Découvert en Chine, un phasme de 62,4 cm, pattes tendues, détient le record du plus long insecte connu. Immobile dans les arbres, il se fond parmi les brindilles.",
+      "photo": "faune_extreme/photos/phasme.jpg",
+      "credit": "Photo : Nadezhda Bortnikova / iNaturalist (CC BY) – Phryganistria bachmaensis",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "L'hermine",
+        "La seiche",
+        "Le phasme géant"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

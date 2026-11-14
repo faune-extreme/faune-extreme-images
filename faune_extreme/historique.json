@@ -1,174 +1,182 @@
 {
- "note": "Animaux déjà publiés sur @faune.extreme : ne jamais les réutiliser. La réserve contient des faits déjà vérifiés à utiliser en priorité.",
- "publies": [
-  {
-   "date": "2026-10-24",
-   "animaux": [
-    "tardigrade",
-    "squille (crevette-mante)",
-    "faucon pèlerin"
-   ]
-  },
-  {
-   "date": "2026-10-25",
-   "animaux": [
-    "requin du Groenland",
-    "barge rousse",
-    "scarabée bombardier"
-   ]
-  },
-  {
-   "date": "2026-10-26",
-   "animaux": [
-    "méduse immortelle (Turritopsis dohrnii)",
-    "grenouille des bois",
-    "martinet noir"
-   ]
-  },
-  {
-   "date": "2026-10-27",
-   "animaux": [
-    "fausse-teigne (Galleria mellonella)",
-    "éléphant d'Afrique",
-    "ornithorynque"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "animaux": [
-    "crevette-pistolet (Alpheidae)",
-    "libellule",
-    "axolotl"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "animaux": [
-    "poulpe (pieuvre)",
-    "sterne arctique",
-    "rat-taupe nu"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "animaux": [
-    "cachalot",
-    "fourmi argentée du Sahara (Cataglyphis bombycina)",
-    "albatros hurleur"
-   ]
-  },
-  {
-   "date": "2026-10-31",
-   "animaux": [
-    "chauve-souris vampire (Desmodus rotundus)",
-    "guêpe émeraude (Ampulex compressa)",
-    "calmar vampire des abysses (Vampyroteuthis infernalis)"
-   ]
-  },
-  {
-   "date": "2026-11-01",
-   "animaux": [
-    "hippopotame",
-    "colibri",
-    "poisson-lune (Mola mola)"
-   ]
-  },
-  {
-   "date": "2026-11-02",
-   "animaux": [
-    "chouette effraie (Tyto alba)",
-    "girafe",
-    "baleine bleue"
-   ]
-  },
-  {
-   "date": "2026-11-03",
-   "animaux": [
-    "loutre de mer (Enhydra lutris)",
-    "bousier (Scarabaeus satyrus)",
-    "manchot empereur"
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "animaux": [
-    "crocodile marin (Crocodylus porosus)",
-    "anguille électrique (Electrophorus voltai)",
-    "fourmi Dracula (Mystrium camillae)"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "animaux": [
-    "tortue luth (Dermochelys coriacea)",
-    "caribou (Rangifer tarandus)",
-    "papillon monarque (Danaus plexippus)"
-   ]
-  },
-  {
-   "date": "2026-11-06",
-   "animaux": [
-    "aigle royal (Aquila chrysaetos)",
-    "taupe à nez étoilé (Condylura cristata)",
-    "petit paon de nuit (Saturnia pavonia)"
-   ]
-  },
-  {
-   "date": "2026-11-07",
-   "animaux": [
-    "guépard (Acinonyx jubatus)",
-    "cicindèle (Cicindela)",
-    "molosse du Brésil (Tadarida brasiliensis)"
-   ]
-  },
-  {
-   "date": "2026-11-08",
-   "animaux": [
-    "grand dauphin (Tursiops truncatus)",
-    "frégate du Pacifique (Fregata minor)",
-    "loir gris (Glis glis)"
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "animaux": [
-    "kangourou roux (Osphranter rufus)",
-    "poisson volant (Exocoetidae)",
-    "cercope des prés (Philaenus spumarius)"
-   ]
-  },
-  {
-   "date": "2026-11-10",
-   "animaux": [
-    "chien (Canis familiaris)",
-    "grand requin-marteau (Sphyrna mokarran)",
-    "crotale diamantin de l'Ouest (Crotalus atrox)"
-   ]
-  },
-  {
-   "date": "2026-11-11",
-   "animaux": [
-    "baleine boréale (Balaena mysticetus)",
-    "fourmi noire des jardins (Lasius niger)",
-    "tortue géante (Jonathan, Aldabrachelys gigantea hololissa)"
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "animaux": [
-    "ours polaire (Ursus maritimus)",
-    "pigeon biset / voyageur (Columba livia)",
-    "poisson-chat (barbue de rivière, Ictalurus punctatus)"
-   ]
-  },
-  {
-   "date": "2026-11-13",
-   "animaux": [
-    "castor (Castor canadensis)",
-    "poisson-globe à taches blanches (Torquigener albomaculosus)",
-    "termite (Syntermes dirus)"
-   ]
-  }
- ],
- "reserve": []
+  "note": "Animaux déjà publiés sur @faune.extreme : ne jamais les réutiliser. La réserve contient des faits déjà vérifiés à utiliser en priorité.",
+  "publies": [
+    {
+      "date": "2026-10-24",
+      "animaux": [
+        "tardigrade",
+        "squille (crevette-mante)",
+        "faucon pèlerin"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "animaux": [
+        "requin du Groenland",
+        "barge rousse",
+        "scarabée bombardier"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "animaux": [
+        "méduse immortelle (Turritopsis dohrnii)",
+        "grenouille des bois",
+        "martinet noir"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "animaux": [
+        "fausse-teigne (Galleria mellonella)",
+        "éléphant d'Afrique",
+        "ornithorynque"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "animaux": [
+        "crevette-pistolet (Alpheidae)",
+        "libellule",
+        "axolotl"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "animaux": [
+        "poulpe (pieuvre)",
+        "sterne arctique",
+        "rat-taupe nu"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "animaux": [
+        "cachalot",
+        "fourmi argentée du Sahara (Cataglyphis bombycina)",
+        "albatros hurleur"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "animaux": [
+        "chauve-souris vampire (Desmodus rotundus)",
+        "guêpe émeraude (Ampulex compressa)",
+        "calmar vampire des abysses (Vampyroteuthis infernalis)"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "animaux": [
+        "hippopotame",
+        "colibri",
+        "poisson-lune (Mola mola)"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "animaux": [
+        "chouette effraie (Tyto alba)",
+        "girafe",
+        "baleine bleue"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "animaux": [
+        "loutre de mer (Enhydra lutris)",
+        "bousier (Scarabaeus satyrus)",
+        "manchot empereur"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "animaux": [
+        "crocodile marin (Crocodylus porosus)",
+        "anguille électrique (Electrophorus voltai)",
+        "fourmi Dracula (Mystrium camillae)"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "animaux": [
+        "tortue luth (Dermochelys coriacea)",
+        "caribou (Rangifer tarandus)",
+        "papillon monarque (Danaus plexippus)"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "animaux": [
+        "aigle royal (Aquila chrysaetos)",
+        "taupe à nez étoilé (Condylura cristata)",
+        "petit paon de nuit (Saturnia pavonia)"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "animaux": [
+        "guépard (Acinonyx jubatus)",
+        "cicindèle (Cicindela)",
+        "molosse du Brésil (Tadarida brasiliensis)"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "animaux": [
+        "grand dauphin (Tursiops truncatus)",
+        "frégate du Pacifique (Fregata minor)",
+        "loir gris (Glis glis)"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "animaux": [
+        "kangourou roux (Osphranter rufus)",
+        "poisson volant (Exocoetidae)",
+        "cercope des prés (Philaenus spumarius)"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "animaux": [
+        "chien (Canis familiaris)",
+        "grand requin-marteau (Sphyrna mokarran)",
+        "crotale diamantin de l'Ouest (Crotalus atrox)"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "animaux": [
+        "baleine boréale (Balaena mysticetus)",
+        "fourmi noire des jardins (Lasius niger)",
+        "tortue géante (Jonathan, Aldabrachelys gigantea hololissa)"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "animaux": [
+        "ours polaire (Ursus maritimus)",
+        "pigeon biset / voyageur (Columba livia)",
+        "poisson-chat (barbue de rivière, Ictalurus punctatus)"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "animaux": [
+        "castor (Castor canadensis)",
+        "poisson-globe à taches blanches (Torquigener albomaculosus)",
+        "termite (Syntermes dirus)"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "animaux": [
+        "hermine (Mustela erminea)",
+        "seiche commune (Sepia officinalis)",
+        "phasme géant (Phryganistria chinensis)"
+      ]
+    }
+  ],
+  "reserve": []
 }
