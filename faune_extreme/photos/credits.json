@@ -527,5 +527,26 @@
   "attribution": "(c) Nadezhda Bortnikova, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Nadezhda Bortnikova / iNaturalist (CC BY) – Phryganistria bachmaensis"
+ },
+ "chimpanze": {
+  "taxon": "Pan troglodytes schweinfurthii",
+  "observation": "https://www.inaturalist.org/observations/127958395",
+  "attribution": "(c) Wairambar Rainforest, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Wairambar Rainforest / iNaturalist (CC BY) – Pan troglodytes schweinfurthii"
+ },
+ "casse_noix": {
+  "taxon": "Nucifraga columbiana",
+  "observation": "https://www.inaturalist.org/observations/130461879",
+  "attribution": "(c) Michael, Antoni and Nihat Hinczewski, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Michael / iNaturalist (CC BY)"
+ },
+ "otarie": {
+  "taxon": "Zalophus californianus",
+  "observation": "https://www.inaturalist.org/observations/71767381",
+  "attribution": "(c) Liam Steele, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Liam Steele / iNaturalist (CC BY)"
  }
 }

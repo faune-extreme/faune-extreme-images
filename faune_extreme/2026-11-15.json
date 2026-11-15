@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux à la mémoire d'éléphant",
+      "sous_titre": "Le n°1 bat les humains →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le chimpanzé bat l'humain à la mémoire",
+      "texte": "Au Japon, le chimpanzé Ayumu retient la place de 5 chiffres affichés un cinquième de seconde. À cette vitesse, des étudiants ne réussissent que 40 % du temps… lui reste quasi imbattable.",
+      "photo": "faune_extreme/photos/chimpanze.jpg",
+      "credit": "Photo : Wairambar Rainforest / iNaturalist (CC BY) – Pan troglodytes schweinfurthii",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le casse-noix cache 30 000 graines",
+      "texte": "Chaque automne, cet oiseau des Rocheuses enterrerait plus de 30 000 graines de pin dans des milliers de cachettes. Il les retrouve jusqu'à 9 mois plus tard, même sous la neige.",
+      "photo": "faune_extreme/photos/casse_noix.jpg",
+      "credit": "Photo : Michael / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "L'otarie se souvient 10 ans après",
+      "texte": "En 1991, Rio, une otarie de Californie, apprend à associer des symboles. Retestée dix ans plus tard, sans s'être exercée entre-temps, elle réussit encore l'exercice.",
+      "photo": "faune_extreme/photos/otarie.jpg",
+      "credit": "Photo : Liam Steele / iNaturalist (CC BY)",
+      "cadrage": "center 10%"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le chimpanzé",
+        "Le casse-noix",
+        "L'otarie"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
