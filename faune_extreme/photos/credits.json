@@ -548,5 +548,26 @@
   "attribution": "(c) Liam Steele, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Liam Steele / iNaturalist (CC BY)"
+ },
+ "basilic": {
+  "taxon": "Basiliscus plumifrons",
+  "observation": "https://www.inaturalist.org/observations/248171851",
+  "attribution": "(c) John Matthew Erickson, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : John Matthew Erickson / iNaturalist (CC BY)"
+ },
+ "poisson_archer": {
+  "taxon": "Toxotes jaculatrix",
+  "observation": "https://www.inaturalist.org/observations/321013010",
+  "attribution": "(c) Pierre Pericard, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Pierre Pericard / iNaturalist (CC BY)"
+ },
+ "pic_epeiche": {
+  "taxon": "Dendrocopos major",
+  "observation": "https://www.inaturalist.org/observations/8762323",
+  "attribution": "(c) Paolo Zucca, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Paolo Zucca / iNaturalist (CC BY)"
  }
 }

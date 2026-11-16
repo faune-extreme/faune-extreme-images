@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux gestes impossibles",
+      "sous_titre": "Le n°1 court sur l'eau →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le basilic court sur l'eau",
+      "texte": "Menacé, ce lézard d'Amérique centrale se dresse sur ses pattes arrière et file sur l'eau à environ 1,5 m/s, sur près de 4,5 mètres. Son surnom : « lézard Jésus-Christ ».",
+      "photo": "faune_extreme/photos/basilic.jpg",
+      "credit": "Photo : John Matthew Erickson / iNaturalist (CC BY)",
+      "cadrage": "35% 40%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le poisson-archer abat ses proies",
+      "texte": "Il crache un jet d'eau qui fait tomber les insectes posés sur les feuilles, jusqu'à 3 mètres selon certaines sources. Il corrige même la déviation de la lumière à la surface.",
+      "photo": "faune_extreme/photos/poisson_archer.jpg",
+      "credit": "Photo : Pierre Pericard / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le pic tape 20 fois par seconde",
+      "texte": "Certains pics martèlent le bois environ 20 fois par seconde. Leur tête encaisserait des chocs jusqu'à 1 400 g, alors qu'un humain risque la commotion vers 100 g.",
+      "photo": "faune_extreme/photos/pic_epeiche.jpg",
+      "credit": "Photo : Paolo Zucca / iNaturalist (CC BY)",
+      "cadrage": "10% center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le basilic",
+        "Le poisson-archer",
+        "Le pic épeiche"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
