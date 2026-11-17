@@ -569,5 +569,26 @@
   "attribution": "(c) Paolo Zucca, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Paolo Zucca / iNaturalist (CC BY)"
+ },
+ "chat": {
+  "taxon": "Felis catus",
+  "observation": "https://www.inaturalist.org/observations/72392101",
+  "attribution": "(c) chloe ⋆˚꩜｡, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : chloe ⋆˚꩜｡ / iNaturalist (CC BY-SA)"
+ },
+ "saumon": {
+  "taxon": "Salmo salar",
+  "observation": "https://www.inaturalist.org/observations/335123407",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "abeille": {
+  "taxon": "Apis mellifera",
+  "observation": "https://www.inaturalist.org/observations/42785968",
+  "attribution": "(c) Albertus Horn, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Albertus Horn / iNaturalist (CC BY)"
  }
 }
