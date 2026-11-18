@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui narguent le grand froid",
+      "sous_titre": "Le n°3 survit à −100 °C →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le renard polaire n'a pas froid à −40 °C",
+      "texte": "Sa fourrure serait la plus isolante de tous les mammifères. Jusqu'à environ −40 °C, il n'a même pas besoin de produire plus de chaleur pour rester au chaud.",
+      "photo": "faune_extreme/photos/renard_polaire.jpg",
+      "credit": "Photo : Michael Bakker Paiva / iNaturalist (CC BY) – Vulpes lagopus lagopus",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le poisson des glaces a le sang transparent",
+      "texte": "Dans l'eau glacée de l'Antarctique, il vit sans globules rouges ni hémoglobine : son sang est incolore. C'est le seul vertébré connu dans ce cas. Son cœur, plus gros, compense.",
+      "photo": "faune_extreme/photos/poisson_des_glaces.jpg",
+      "credit": "Photo : Valerie Loeb / iNaturalist (domaine public) – Chionodraco rastrospinosus",
+      "cadrage": "15% center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le cucujus survit à −100 °C",
+      "texte": "En Alaska, les larves de ce coléoptère rouge passent l'hiver sous l'écorce. En laboratoire, certaines ont survécu à −100 °C : leurs fluides se figent comme du verre, sans geler.",
+      "photo": "faune_extreme/photos/cucujus.jpg",
+      "credit": "Photo : Katja Schulz / iNaturalist (CC BY)",
+      "cadrage": "35% center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le renard polaire",
+        "Le poisson des glaces",
+        "Le cucujus"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

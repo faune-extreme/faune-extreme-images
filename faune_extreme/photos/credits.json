@@ -590,5 +590,26 @@
   "attribution": "(c) Albertus Horn, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Albertus Horn / iNaturalist (CC BY)"
+ },
+ "renard_polaire": {
+  "taxon": "Vulpes lagopus lagopus",
+  "observation": "https://www.inaturalist.org/observations/117580015",
+  "attribution": "(c) Michael Bakker Paiva, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Michael Bakker Paiva / iNaturalist (CC BY) – Vulpes lagopus lagopus"
+ },
+ "poisson_des_glaces": {
+  "taxon": "Chionodraco rastrospinosus",
+  "observation": "https://www.inaturalist.org/taxa/610070",
+  "attribution": "\nValerie Loeb, no known copyright restrictions (public domain)",
+  "licence": "domaine public",
+  "credit": "Photo : Valerie Loeb / iNaturalist (domaine public) – Chionodraco rastrospinosus"
+ },
+ "cucujus": {
+  "taxon": "Cucujus clavipes",
+  "observation": "https://www.inaturalist.org/observations/4955970",
+  "attribution": "(c) Katja Schulz, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Katja Schulz / iNaturalist (CC BY)"
  }
 }

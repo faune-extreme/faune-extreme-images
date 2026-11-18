@@ -200,6 +200,14 @@
         "saumon atlantique (Salmo salar)",
         "abeille domestique (Apis mellifera)"
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "animaux": [
+        "renard polaire (Vulpes lagopus)",
+        "poisson des glaces (Channichthyidae, photo Chionodraco rastrospinosus)",
+        "cucujus rouge (Cucujus clavipes puniceus)"
+      ]
     }
   ],
   "reserve": []
