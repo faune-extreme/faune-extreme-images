@@ -611,5 +611,26 @@
   "attribution": "(c) Katja Schulz, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Katja Schulz / iNaturalist (CC BY)"
+ },
+ "requin_blanc": {
+  "taxon": "Carcharodon carcharias",
+  "observation": "https://www.inaturalist.org/observations/66241741",
+  "attribution": "(c) Michel Frisch, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Michel Frisch / iNaturalist (CC BY)"
+ },
+ "kiwi": {
+  "taxon": "Apteryx australis lawryi",
+  "observation": "http://naturewatch.org.nz/observations/7141487",
+  "attribution": "(c) Wendy Bailey, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Wendy Bailey / iNaturalist (CC BY) – Apteryx australis lawryi"
+ },
+ "melanophile": {
+  "taxon": "Melanophila acuminata",
+  "observation": "https://www.inaturalist.org/observations/380108011",
+  "attribution": "(c) Matt Muir, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Matt Muir / iNaturalist (CC BY)"
  }
 }

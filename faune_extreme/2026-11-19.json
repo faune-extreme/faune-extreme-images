@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux super-sens incroyables",
+      "sous_titre": "Le n°3 repère un incendie de très loin →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le requin sent l'électricité",
+      "texte": "Des centaines de pores remplis de gel sur son museau captent les infimes champs électriques émis par le cœur et les muscles d'une proie, même cachée sous le sable.",
+      "photo": "faune_extreme/photos/requin_blanc.jpg",
+      "credit": "Photo : Michel Frisch / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le kiwi a le nez au bout du bec",
+      "texte": "C'est le seul oiseau dans ce cas. En fouillant le sol, il repérerait un ver de terre enfoui jusqu'à 3 cm grâce à son odorat et à des capteurs de vibrations.",
+      "photo": "faune_extreme/photos/kiwi.jpg",
+      "credit": "Photo : Wendy Bailey / iNaturalist (CC BY) – Apteryx australis lawryi",
+      "cadrage": "center 15%"
+    },
+    {
+      "type": "fait",
+      "titre": "Ce scarabée voit les incendies",
+      "texte": "Le mélanophile pond dans le bois brûlé. Ses capteurs infrarouges lui permettraient de repérer un grand incendie à des dizaines de kilomètres, peut-être jusqu'à 130 km.",
+      "photo": "faune_extreme/photos/melanophile.jpg",
+      "credit": "Photo : Matt Muir / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le grand requin blanc",
+        "Le kiwi",
+        "Le mélanophile"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
