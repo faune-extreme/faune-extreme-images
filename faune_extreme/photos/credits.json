@@ -632,5 +632,26 @@
   "attribution": "(c) Matt Muir, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Matt Muir / iNaturalist (CC BY)"
+ },
+ "baleine_bec_cuvier": {
+  "taxon": "Ziphius cavirostris",
+  "observation": "https://www.inaturalist.org/observations/337795155",
+  "attribution": "(c) Lucas Benaiche, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Lucas Benaiche / iNaturalist (CC BY-SA)"
+ },
+ "elephant_de_mer": {
+  "taxon": "Mirounga angustirostris",
+  "observation": "https://www.inaturalist.org/observations/105012699",
+  "attribution": "(c) Garth Harwood, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Garth Harwood / iNaturalist (CC BY)"
+ },
+ "argyronete": {
+  "taxon": "Argyroneta aquatica",
+  "observation": "https://www.inaturalist.org/observations/244945935",
+  "attribution": "(c) Mark, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Mark / iNaturalist (CC BY)"
  }
 }

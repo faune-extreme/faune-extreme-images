@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux champions de l'apnée",
+      "sous_titre": "Le n°1 retient son souffle près de 4 h →"
+    },
+    {
+      "type": "fait",
+      "titre": "Près de 4 heures sans respirer",
+      "texte": "La baleine à bec de Cuvier détient le record d'apnée des mammifères : 3 h 42 sous l'eau. Elle peut aussi plonger jusqu'à près de 3 000 m de profondeur.",
+      "photo": "faune_extreme/photos/baleine_bec_cuvier.jpg",
+      "credit": "Photo : Lucas Benaiche / iNaturalist (CC BY-SA)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "L'éléphant de mer dort en plongée",
+      "texte": "En mer, il ne dormirait qu'environ 2 h par jour, par siestes de quelques minutes. Il s'endort sous l'eau, à des centaines de mètres de fond, en descendant en spirale.",
+      "photo": "faune_extreme/photos/elephant_de_mer.jpg",
+      "credit": "Photo : Garth Harwood / iNaturalist (CC BY)",
+      "cadrage": "10% center"
+    },
+    {
+      "type": "fait",
+      "titre": "L'araignée qui vit sous l'eau",
+      "texte": "L'argyronète tisse une cloche de soie qu'elle remplit d'air. Cette bulle agit comme une branchie : l'oxygène de l'eau y entre, et elle peut y rester jusqu'à une journée sans remonter.",
+      "photo": "faune_extreme/photos/argyronete.jpg",
+      "credit": "Photo : Mark / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "La baleine à bec de Cuvier",
+        "L'éléphant de mer",
+        "L'argyronète"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
