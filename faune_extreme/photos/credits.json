@@ -653,5 +653,26 @@
   "attribution": "(c) Mark, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Mark / iNaturalist (CC BY)"
+ },
+ "cameleon": {
+  "taxon": "Furcifer pardalis",
+  "observation": "https://www.inaturalist.org/observations/148812284",
+  "attribution": "(c) Piotr Lukasik, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Piotr Lukasik / iNaturalist (CC BY)"
+ },
+ "xanthopan": {
+  "taxon": "Xanthopan praedicta",
+  "observation": "https://www.inaturalist.org/observations/149518857",
+  "attribution": "(c) Piotr Lukasik, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Piotr Lukasik / iNaturalist (CC BY)"
+ },
+ "cymothoa": {
+  "taxon": "Cymothoa oestrum",
+  "observation": "https://www.inaturalist.org/observations/308894722",
+  "attribution": "(c) geosesarma, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : geosesarma / iNaturalist (CC BY) – Cymothoa oestrum"
  }
 }

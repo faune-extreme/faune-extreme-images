@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 langues incroyables du monde animal",
+      "sous_titre": "Le n°1 tire la sienne à 97 km/h →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le caméléon a une langue-catapulte",
+      "texte": "Elle peut dépasser deux fois la longueur de son corps. Chez une petite espèce, elle passe de 0 à 97 km/h en un centième de seconde : une accélération de 264 g !",
+      "photo": "faune_extreme/photos/cameleon.jpg",
+      "credit": "Photo : Piotr Lukasik / iNaturalist (CC BY) – Furcifer pardalis",
+      "cadrage": "30% 40%"
+    },
+    {
+      "type": "fait",
+      "titre": "Ce parasite remplace la langue d'un poisson",
+      "texte": "Le pou mangeur de langue entre par les branchies, s'accroche à la langue du poisson et la fait dépérir. Puis il prend sa place : le poisson s'en sert comme d'une nouvelle langue.",
+      "photo": "faune_extreme/photos/cymothoa.jpg",
+      "credit": "Photo : geosesarma / iNaturalist (CC BY) – Cymothoa oestrum",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Darwin avait prédit ce papillon",
+      "texte": "En 1862, face à une orchidée au nectar caché au fond d'un tube de 30 cm, Darwin annonce un papillon à trompe géante. Il est découvert en 1903 : sa trompe dépasse 20 cm.",
+      "photo": "faune_extreme/photos/xanthopan.jpg",
+      "credit": "Photo : Piotr Lukasik / iNaturalist (CC BY)",
+      "cadrage": "center 15%"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le caméléon",
+        "Le pou mangeur de langue",
+        "Le sphinx de Darwin"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
