@@ -674,5 +674,26 @@
   "attribution": "(c) geosesarma, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : geosesarma / iNaturalist (CC BY) – Cymothoa oestrum"
+ },
+ "saint_jacques": {
+  "taxon": "Pecten maximus",
+  "observation": "https://www.inaturalist.org/observations/9705095",
+  "attribution": "(c) Bernard Picton, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Bernard Picton / iNaturalist (CC BY)"
+ },
+ "cheval": {
+  "taxon": "Equus caballus",
+  "observation": "https://www.inaturalist.org/observations/29591883",
+  "attribution": "(c) Meghan Cassidy, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Meghan Cassidy / iNaturalist (CC BY-SA)"
+ },
+ "mouche": {
+  "taxon": "Musca domestica",
+  "observation": "https://www.inaturalist.org/observations/19467128",
+  "attribution": "(c) Even Dankowicz, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Even Dankowicz / iNaturalist (CC BY)"
  }
 }

@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux yeux hors du commun",
+      "sous_titre": "Le n°1 a 200 yeux →"
+    },
+    {
+      "type": "fait",
+      "titre": "La coquille Saint-Jacques a 200 yeux",
+      "texte": "Tout autour de sa coquille brillent jusqu'à 200 petits yeux. Chacun fonctionne comme un télescope : un miroir fait de minuscules cristaux carrés concentre la lumière sur la rétine.",
+      "photo": "faune_extreme/photos/saint_jacques.jpg",
+      "credit": "Photo : Bernard Picton / iNaturalist (CC BY)",
+      "cadrage": "center 60%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le cheval voit presque tout autour de lui",
+      "texte": "Ses yeux sont placés sur les côtés de la tête : son champ de vision couvrirait environ 350°. Seuls angles morts : juste devant son nez et juste derrière lui.",
+      "photo": "faune_extreme/photos/cheval.jpg",
+      "credit": "Photo : Meghan Cassidy / iNaturalist (CC BY-SA)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "La mouche voit le monde au ralenti",
+      "texte": "Son œil capte environ 250 images par seconde, quatre fois plus que nous. Ta main qui s'abat lui paraît lente… voilà pourquoi elle est si difficile à écraser !",
+      "photo": "faune_extreme/photos/mouche.jpg",
+      "credit": "Photo : Even Dankowicz / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "La coquille Saint-Jacques",
+        "Le cheval",
+        "La mouche"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
