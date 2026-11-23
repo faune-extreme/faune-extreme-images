@@ -695,5 +695,26 @@
   "attribution": "(c) Even Dankowicz, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Even Dankowicz / iNaturalist (CC BY)"
+ },
+ "etoile_de_mer": {
+  "taxon": "Linckia laevigata",
+  "observation": "https://www.inaturalist.org/observations/6615837",
+  "attribution": "(c) melianie_max_and_asker, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : melianie_max_and_asker / iNaturalist (CC BY)"
+ },
+ "cerf": {
+  "taxon": "Cervus elaphus",
+  "observation": "https://www.inaturalist.org/observations/254402724",
+  "attribution": "(c) Diego González Dopico, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Diego González Dopico / iNaturalist (CC BY)"
+ },
+ "planaire": {
+  "taxon": "Dugesia gonocephala",
+  "observation": "https://www.inaturalist.org/observations/217126953",
+  "attribution": "(c) Tina Ellegaard Poulsen, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Tina Ellegaard Poulsen / iNaturalist (CC BY) – Dugesia gonocephala"
  }
 }

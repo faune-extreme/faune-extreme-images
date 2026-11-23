@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui repoussent comme par magie",
+      "sous_titre": "Le n°1 renaît d'un minuscule morceau →"
+    },
+    {
+      "type": "fait",
+      "titre": "La planaire repousse en entier",
+      "texte": "Ce petit ver d'eau douce est un as de la régénération. En 1898, un biologiste a vu un fragment de 1/279e de planaire redevenir un ver complet, cerveau compris.",
+      "photo": "faune_extreme/photos/planaire.jpg",
+      "credit": "Photo : Tina Ellegaard Poulsen / iNaturalist (CC BY) – Dugesia gonocephala",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Un seul bras refait une étoile de mer",
+      "texte": "Chez l'étoile de mer bleue, un seul bras détaché peut régénérer un animal entier. Pendant la repousse, elle ressemble à une « comète » : un grand bras et quatre minuscules.",
+      "photo": "faune_extreme/photos/etoile_de_mer.jpg",
+      "credit": "Photo : melianie_max_and_asker / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le cerf refait ses bois chaque année",
+      "texte": "Il les perd à la fin de l'hiver, puis ils repoussent en quelques mois. Ce serait le tissu qui pousse le plus vite chez les mammifères : jusqu'à 2 cm par jour.",
+      "photo": "faune_extreme/photos/cerf.jpg",
+      "credit": "Photo : Diego González Dopico / iNaturalist (CC BY)",
+      "cadrage": "center 58%"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "La planaire",
+        "L'étoile de mer",
+        "Le cerf"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
