@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux dotés d'un sixième sens",
+      "sous_titre": "Le n°1 « voit » le nord →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le rouge-gorge sent le champ magnétique",
+      "texte": "Pour migrer de nuit, ce petit oiseau s'oriente grâce au champ magnétique terrestre. Une protéine de ses yeux, le cryptochrome 4, lui permettrait même de « voir » le nord.",
+      "photo": "faune_extreme/photos/rouge_gorge.jpg",
+      "credit": "Photo : Alexis Tinker-Tsavalas / iNaturalist (CC BY)",
+      "cadrage": "center 40%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le dauphin de Guyane sent l'électricité",
+      "texte": "Les petits creux de son museau, vestiges de moustaches, captent les faibles champs électriques émis par les poissons cachés dans la vase. Une découverte faite en 2011.",
+      "photo": "faune_extreme/photos/dauphin_guyane.jpg",
+      "credit": "Photo : iNaturalist (domaine public, CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le bourdon perçoit l'électricité des fleurs",
+      "texte": "Les fleurs portent une faible charge électrique. Les poils du bourdon se plient à son contact, ce qui l'aiderait à repérer les fleurs déjà visitées par d'autres butineurs.",
+      "photo": "faune_extreme/photos/bourdon.jpg",
+      "credit": "Photo : Alan Flisch / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le rouge-gorge",
+        "Le dauphin de Guyane",
+        "Le bourdon"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

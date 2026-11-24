@@ -716,5 +716,26 @@
   "attribution": "(c) Tina Ellegaard Poulsen, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Tina Ellegaard Poulsen / iNaturalist (CC BY) – Dugesia gonocephala"
+ },
+ "rouge_gorge": {
+  "taxon": "Erithacus rubecula",
+  "observation": "https://www.inaturalist.org/observations/19776411",
+  "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Alexis Tinker-Tsavalas / iNaturalist (CC BY)"
+ },
+ "dauphin_guyane": {
+  "taxon": "Sotalia guianensis",
+  "observation": "https://www.inaturalist.org/observations/183077442",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "bourdon": {
+  "taxon": "Bombus terrestris",
+  "observation": "https://www.inaturalist.org/observations/399830082",
+  "attribution": "(c) Alan Flisch, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Alan Flisch / iNaturalist (CC BY)"
  }
 }
