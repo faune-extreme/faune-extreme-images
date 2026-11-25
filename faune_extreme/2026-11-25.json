@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 champions du sommeil",
+      "sous_titre": "Le n°2 dort 4 secondes à la fois →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le koala dort jusqu'à 22 h par jour",
+      "texte": "Ses feuilles d'eucalyptus sont pauvres en énergie et difficiles à digérer. Pour économiser ses forces, le koala passerait ainsi 18 à 22 heures par jour à dormir ou à se reposer.",
+      "photo": "faune_extreme/photos/koala.jpg",
+      "credit": "Photo : iNaturalist (domaine public, CC0)",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "fait",
+      "titre": "Le manchot fait 10 000 siestes par jour",
+      "texte": "Pour surveiller son nid, le manchot à jugulaire s'endort plus de 10 000 fois par jour, environ 4 secondes à la fois. Mises bout à bout, ces micro-siestes totalisent près de 11 heures.",
+      "photo": "faune_extreme/photos/manchot_jugulaire.jpg",
+      "credit": "Photo : Sterling Sheehy / iNaturalist (CC BY)",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "fait",
+      "titre": "La méduse Cassiopée dort sans cerveau",
+      "texte": "Cette méduse n'a pas de cerveau, et pourtant elle dort : la nuit, ses pulsations ralentissent et elle réagit moins vite. Privée de sommeil, elle somnole le lendemain. Découverte publiée en 2017.",
+      "photo": "faune_extreme/photos/cassiopea.jpg",
+      "credit": "Photo : Robin White / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le koala",
+        "Le manchot à jugulaire",
+        "La méduse Cassiopée"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

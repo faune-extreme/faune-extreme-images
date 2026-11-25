@@ -256,6 +256,14 @@
         "dauphin de Guyane (Sotalia guianensis)",
         "bourdon terrestre (Bombus terrestris)"
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "animaux": [
+        "koala (Phascolarctos cinereus)",
+        "manchot à jugulaire (Pygoscelis antarcticus)",
+        "méduse Cassiopée (Cassiopea xamachana)"
+      ]
     }
   ],
   "reserve": []

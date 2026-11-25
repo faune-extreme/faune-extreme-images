@@ -737,5 +737,26 @@
   "attribution": "(c) Alan Flisch, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Alan Flisch / iNaturalist (CC BY)"
+ },
+ "koala": {
+  "taxon": "Phascolarctos cinereus",
+  "observation": "https://www.inaturalist.org/observations/190585782",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "manchot_jugulaire": {
+  "taxon": "Pygoscelis antarcticus",
+  "observation": "http://www.inaturalist.org/observations/194786",
+  "attribution": "(c) Sterling Sheehy, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Sterling Sheehy / iNaturalist (CC BY)"
+ },
+ "cassiopea": {
+  "taxon": "Cassiopea xamachana",
+  "observation": "https://www.inaturalist.org/observations/138640033",
+  "attribution": "(c) Robin White, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Robin White / iNaturalist (CC BY)"
  }
 }
