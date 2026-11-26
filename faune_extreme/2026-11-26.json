@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux prêts à tout pour survivre",
+      "sous_titre": "Le n°2 tire du sang par les yeux →"
+    },
+    {
+      "type": "fait",
+      "titre": "L'opossum fait le mort… pour de vrai",
+      "texte": "Face au danger, il s'effondre, langue pendante, et dégage une odeur de cadavre. Ce réflexe est involontaire : il pourrait rester « mort » de quelques minutes jusqu'à 4 heures.",
+      "photo": "faune_extreme/photos/opossum.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0)",
+      "cadrage": "center 30%"
+    },
+    {
+      "type": "fait",
+      "titre": "Ce lézard tire du sang par les yeux",
+      "texte": "Attaqué par un coyote, le lézard à cornes du Texas fait gonfler les vaisseaux autour de ses yeux et projette un jet de sang au goût repoussant, jusqu'à 1,5 mètre.",
+      "photo": "faune_extreme/photos/lezard_cornu.jpg",
+      "credit": "Photo : Scott Holt / iNaturalist (CC BY-SA)",
+      "cadrage": "65% center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le concombre de mer crache ses entrailles",
+      "texte": "Menacé, il expulse une partie de ses organes internes pour distraire le prédateur, puis s'éloigne. Le plus fou ? Il les fait repousser en quelques semaines.",
+      "photo": "faune_extreme/photos/concombre_de_mer.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "L'opossum",
+        "Le lézard à cornes",
+        "Le concombre de mer"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}

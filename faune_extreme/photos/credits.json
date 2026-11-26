@@ -758,5 +758,26 @@
   "attribution": "(c) Robin White, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Robin White / iNaturalist (CC BY)"
+ },
+ "opossum": {
+  "taxon": "Didelphis virginiana",
+  "observation": "http://www.inaturalist.org/observations/2007070",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "lezard_cornu": {
+  "taxon": "Phrynosoma cornutum",
+  "observation": "https://www.inaturalist.org/observations/94668760",
+  "attribution": "(c) Scott Holt, some rights reserved (CC BY-SA)",
+  "licence": "CC BY-SA",
+  "credit": "Photo : Scott Holt / iNaturalist (CC BY-SA)"
+ },
+ "concombre_de_mer": {
+  "taxon": "Apostichopus californicus",
+  "observation": "https://www.inaturalist.org/observations/231114319",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
  }
 }
