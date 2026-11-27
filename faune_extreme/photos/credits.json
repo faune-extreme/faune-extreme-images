@@ -779,5 +779,26 @@
   "attribution": "no rights reserved",
   "licence": "CC0",
   "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "lapin": {
+  "taxon": "Oryctolagus cuniculus",
+  "observation": "https://www.inaturalist.org/observations/83624539",
+  "attribution": "(c) Alexis Lours, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Alexis Lours / iNaturalist (CC BY)"
+ },
+ "phoque": {
+  "taxon": "Phoca vitulina richardii",
+  "observation": "https://www.inaturalist.org/observations/232570682",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0) – Phoca vitulina richardii"
+ },
+ "mante": {
+  "taxon": "Mantis religiosa",
+  "observation": "https://www.inaturalist.org/observations/31791411",
+  "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Alexis Tinker-Tsavalas / iNaturalist (CC BY)"
  }
 }

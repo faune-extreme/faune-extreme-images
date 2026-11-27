@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux aux super-sens incroyables",
+      "sous_titre": "Le n°3 entend avec sa poitrine →"
+    },
+    {
+      "type": "fait",
+      "titre": "Le lapin voit presque à 360°",
+      "texte": "Ses yeux placés sur les côtés de la tête lui offrent une vision quasi panoramique : il repère un prédateur derrière lui sans tourner la tête. Son seul angle mort ? Juste devant son nez.",
+      "photo": "faune_extreme/photos/lapin.jpg",
+      "credit": "Photo : Alexis Lours / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Le phoque piste les poissons avec ses moustaches",
+      "texte": "Même les yeux bandés, un phoque commun retrouve un poisson grâce aux remous invisibles qu'il laisse dans l'eau. Ses vibrisses captent ce sillage jusqu'à 35 secondes après son passage.",
+      "photo": "faune_extreme/photos/phoque.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0) – Phoca vitulina richardii",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "La mante n'a qu'une oreille… sur la poitrine",
+      "texte": "Cachée dans un sillon entre ses pattes arrière, cette oreille unique capte les ultrasons des chauves-souris. En vol, la mante détecte l'attaque et plonge en piqué pour l'esquiver.",
+      "photo": "faune_extreme/photos/mante.jpg",
+      "credit": "Photo : Alexis Tinker-Tsavalas / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "Le lapin",
+        "Le phoque",
+        "La mante religieuse"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
