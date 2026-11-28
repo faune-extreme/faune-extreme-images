@@ -800,5 +800,26 @@
   "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
   "licence": "CC BY",
   "credit": "Photo : Alexis Tinker-Tsavalas / iNaturalist (CC BY)"
+ },
+ "corneille": {
+  "taxon": "Corvus brachyrhynchos",
+  "observation": "https://www.inaturalist.org/observations/70485080",
+  "attribution": "no rights reserved",
+  "licence": "CC0",
+  "credit": "Photo : no rights reserved / iNaturalist (CC0)"
+ },
+ "labre_nettoyeur": {
+  "taxon": "Labroides dimidiatus",
+  "observation": "https://www.inaturalist.org/observations/171443049",
+  "attribution": "(c) Julien Renoult, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Julien Renoult / iNaturalist (CC BY)"
+ },
+ "guepe_poliste": {
+  "taxon": "Polistes fuscatus",
+  "observation": "https://www.inaturalist.org/observations/236088557",
+  "attribution": "(c) Adrienne van den Beemt, some rights reserved (CC BY)",
+  "licence": "CC BY",
+  "credit": "Photo : Adrienne van den Beemt / iNaturalist (CC BY)"
  }
 }

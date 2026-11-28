@@ -1,0 +1,53 @@
+{
+  "serie": "Le saviez-vous ?",
+  "compte": "@faune.extreme",
+  "slides": [
+    {
+      "type": "cover",
+      "titre": "3 animaux qui n'oublient pas un visage",
+      "sous_titre": "Le n°1 se souviendra de toi des années →"
+    },
+    {
+      "type": "fait",
+      "titre": "La corneille n'oublie jamais un visage",
+      "texte": "À Seattle, des chercheurs masqués ont capturé des corneilles. Des années plus tard, elles criaient encore en voyant ce masque… même celles qui n'avaient jamais été attrapées !",
+      "photo": "faune_extreme/photos/corneille.jpg",
+      "credit": "Photo : no rights reserved / iNaturalist (CC0)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Ce poisson se reconnaît dans un miroir",
+      "texte": "Le labre nettoyeur réussit le test du miroir : devant son reflet, il tente de gratter une marque colorée posée sur sa gorge. Un exploit rare, longtemps réservé aux grands singes.",
+      "photo": "faune_extreme/photos/labre_nettoyeur.jpg",
+      "credit": "Photo : Julien Renoult / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "fait",
+      "titre": "Cette guêpe reconnaît ses voisines",
+      "texte": "Chez la guêpe poliste, chaque individu porte un dessin unique sur la face. Ses congénères apprennent ces « visages » et s'en souviendraient au moins une semaine.",
+      "photo": "faune_extreme/photos/guepe_poliste.jpg",
+      "credit": "Photo : Adrienne van den Beemt / iNaturalist (CC BY)",
+      "cadrage": "center"
+    },
+    {
+      "type": "cta",
+      "titre": "Le plus impressionnant ?",
+      "choix": [
+        "La corneille",
+        "Le labre nettoyeur",
+        "La guêpe poliste"
+      ],
+      "texte": "Réponds juste avec son numéro 👇",
+      "action": "Abonne-toi : demain, 3 nouveaux animaux"
+    }
+  ],
+  "logo": "faune_extreme/logo.svg",
+  "style": {
+    "fond": "#0E2A1F",
+    "accent": "#FF7A1A",
+    "texte": "#F3EBDD",
+    "texte_doux": "#A9BFB2"
+  }
+}
